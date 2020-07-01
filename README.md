@@ -3,7 +3,7 @@
 
 This is an example repo ilustration of Dugeon using `Markdown` on Github.
 In the dugeon the reader choose wich option to take and jump into an appropriate page of the room that based on their choice.
-It is collaborative because the room is written by many authors.
+It is collaborative because the room is written by many authors. [Start a new game](./start-new-game.md)
 
 # Floor and the room format
 A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
@@ -38,7 +38,8 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 
 01A, 02*A3, A3+F // Non-Compliance
 ```
-> Folder or file name only accept all ASCII characters and the dash(-)
+> Folder or file name only accept all ASCII characters and the dash(-).
+If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to you dungeon
 ## Use Relative Links
 The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
 
