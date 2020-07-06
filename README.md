@@ -9,9 +9,9 @@ It is collaborative because the room is written by many authors. [Start a new ga
 A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
 
-[Go to Github floor](https://github.com/)
+[Go to Github dungeon](https://github.com/)
 ```md
-[Go to Github floor](https://github.com/)
+[Go to Github dungeon](https://github.com/)
 ```
 # Contribution Guidelines
 ### Make Adequately Sized Changes
