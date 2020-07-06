@@ -14,17 +14,17 @@ The Markdown capability links is used for up/down and go to another room, like b
 [Go to Github dungeon](https://github.com/)
 ```
 # Contribution Guidelines
-## Make Adequately Sized Changes
+### Make Adequately Sized Changes
 - Keep change small
 - Don't add an option without adding any gate for readers who decide that option, so the dungeon will not be full of deadlines. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
 
-### Here are some examples of appropriate changes:
+#### Here are some examples of appropriate changes:
 - Add one or two sentences to an existing "page" (file) in the room.
 - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
 - Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
 - Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
 
-## Dungeon Structure
+### Dungeon Structure
 Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
 - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: `normal-dungeon-1`.
 - floor-number: is a folder that contains room number, is numeric do not add `0` before the number.
@@ -41,13 +41,13 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 ```
 > Folder or file name only accept all ASCII characters and the dash(-).
 If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to you dungeon
-## Use Relative Links
+### Use Relative Links
 The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
 
-## Line Length
+### Line Length
 Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
 
-## Blank Lines Between Options
+### Blank Lines Between Options
 Insert blank lines between the different options so that the options are visually separated.
 
 # License
