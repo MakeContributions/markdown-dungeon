@@ -1,6 +1,6 @@
 # Welcome to the Dungeon!
 
-Choose your language:
+Choose your path:
 
 * [I choose you](english/normal-dungeon/0/0.md)
 
