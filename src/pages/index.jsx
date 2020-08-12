@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 
 export default function Home({ data }) {
   const post = data.markdownRemark;
@@ -9,16 +10,12 @@ export default function Home({ data }) {
     `${process.env.GITHUB_REPO_URL}/blob/master/LICENSE`
   );
   return (
-    <div>
-      {/* highlight-start */}
-      <div>
-        <div
-          className='blog-post-content'
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
-      {/* highlight-end */}
-    </div>
+    <Layout>
+      <div
+        className='blog-post-content'
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </Layout>
   );
 }
 

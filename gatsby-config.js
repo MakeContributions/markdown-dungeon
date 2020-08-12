@@ -17,9 +17,15 @@ module.exports = {
         ignore: [`**/\.*`],
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-autolink-headers`, `gatsby-remark-prismjs`],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

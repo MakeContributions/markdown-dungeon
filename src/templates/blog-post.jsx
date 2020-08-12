@@ -1,5 +1,6 @@
 import React from 'react';
-import { graphql } from 'gatsby'; // highlight-line
+import { graphql } from 'gatsby';
+import Layout from '../components/layout';
 
 // highlight-start
 export default function BlogPost({ data }) {
@@ -13,16 +14,12 @@ export default function BlogPost({ data }) {
   }
   // highlight-end
   return (
-    <div className='blog-post-container'>
-      {/* highlight-start */}
-      <div className='blog-post'>
-        <div
-          className='blog-post-content'
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-      </div>
-      {/* highlight-end */}
-    </div>
+    <Layout>
+      <div
+        className='blog-post-content'
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </Layout>
   );
 }
 
