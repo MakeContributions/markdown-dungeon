@@ -105,3 +105,6 @@ dist
 
 # gatsby
 public/
+
+# MacOS Desktop Services Store
+.DS_Store

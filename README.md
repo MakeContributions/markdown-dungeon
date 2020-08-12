@@ -5,8 +5,8 @@
 
 > A dungeon is a room or cell in which prisoners are held, especially underground.
 
-This is an example repo ilustration of Dugeon using `Markdown` on Github.
-In the dugeon the reader choose wich option to take and jump into an appropriate page of the room that based on their choice.
+This is an example repo illustration of a dungeon using `Markdown` on Github.
+In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
 It is collaborative because the room is written by many authors. [Start a new game](./start-new-game.md)
 
 # Floor and the room format
@@ -24,8 +24,8 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 ### Make Adequately Sized Changes
 
-- Keep change small
-- Don't add an option without adding any gate for readers who decide that option, so the dungeon will not be full of deadlines. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+- Keep changes small
+- Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
 
 #### Here are some examples of appropriate changes:
 
@@ -56,7 +56,13 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 ```
 
 > Folder or file name only accept all ASCII characters and the dash(-).
+> <<<<<<< HEAD
 > If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to you dungeon
+
+=======
+If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+
+> > > > > > > origin/master
 
 ### Use Relative Links
 
