@@ -16,7 +16,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 [Go to Github dungeon](https://github.com/)
 
-```
+```md
 [Go to Github dungeon](https://github.com/)
 ```
 
