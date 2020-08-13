@@ -1,7 +1,6 @@
 {
   "name": "markdown-dungeon",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/MakeContributions/markdown-dungeon.git",
   "author": "MakeContributions <tsaibot@outlook.com>",
   "license": "CC0-1.0",
