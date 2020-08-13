@@ -1,5 +1,6 @@
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-blue.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/makecontributions/markdown-dungeon/badges/users.svg)](https://www.codetriage.com/makecontributions/markdown-dungeon)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/320e6533-33ab-402c-bfb9-ebac1881b260/deploy-status)](https://app.netlify.com/sites/markdown-dungeon/deploys)
 
 # Markdown Dungeon
 
@@ -72,4 +73,4 @@ Insert blank lines between the different options so that the options are visuall
 
 # License
 
-The content of this repository is licensed under a [Creative Commons Attribution License](./LICENSE)
+[MIT](./LICENSE) © MakeContributions
