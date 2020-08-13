@@ -7,7 +7,7 @@ export default function Home({ data }) {
   let html = post.html.replace(/.md/gi, '');
   html = html.replace(
     './LICENSE',
-    `${process.env.GITHUB_REPO_URL}/blob/master/LICENSE`
+    `${process.env.GATSBY_GITHUB_REPO_URL}/blob/master/LICENSE`
   );
   return (
     <Layout>

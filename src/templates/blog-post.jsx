@@ -9,7 +9,7 @@ export default function BlogPost({ data }) {
   if (post.fields?.slug.includes('README')) {
     html = html.replace(
       './LICENSE',
-      `${process.env.GITHUB_REPO_URL}/blob/master/LICENSE`
+      `${process.env.GATSBY_GITHUB_REPO_URL}/blob/master/LICENSE`
     );
   }
   // highlight-end
