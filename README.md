@@ -56,13 +56,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 ```
 
 > Folder or file name only accept all ASCII characters and the dash(-).
-> <<<<<<< HEAD
-> If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to you dungeon
-
-=======
-If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
-
-> > > > > > > origin/master
+> If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
 
 ### Use Relative Links
 
