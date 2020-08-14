@@ -10,6 +10,30 @@ This is an example repo illustration of a dungeon using `Markdown` on Github.
 In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
 It is collaborative because the room is written by many authors. [Start a new game](./start-new-game.md)
 
+# Installation
+You need install [yarn](https://www.npmjs.com/package/yarn).
+
+1. Clone the repo
+```git
+git clone https://github.com/MakeContributions/markdown-dungeon.git
+```
+2. Got to folder
+```bash
+cd markdown-dungeon
+```
+3. Run install dependecy
+```bash
+yarn
+```
+4. Create a `.env.development` file in the project root folder and copy the format of `.env.example` file.
+5. To start the development server run:
+```bash
+yarn start
+```
+> Ensure you are not using Power bash
+
+6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
+
 # Floor and the room format
 
 A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
@@ -42,7 +66,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: `normal-dungeon-1`.
 - floor-number: is a folder that contains room number, is numeric do not add `0` before the number.
 
-```
+```bash
 1, 2, 3 // Compliance
 
 01, 02, A3 // Non-Compliance
@@ -50,7 +74,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 
 - room-number: is a markdown file, the name of the file should be in numeric, but if has sub-rooms of the room you could separate the room number with a dash(-), the sub room could be alphanumeric.
 
-```
+```bash
 1, 2, 3-AF, 3-01 // Compliance
 
 01A, 02*A3, A3+F // Non-Compliance
