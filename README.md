@@ -75,7 +75,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
 - floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
 
-```bash
+```textile
 1, 2, 3 // Compliance
 
 01, 02, A3 // Non-Compliance
@@ -83,7 +83,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 
 - room-number: is a markdown file, the name of the file should be in numeric, but if has sub-rooms of the room you could separate the room number with a dash(-), the sub room could be alphanumeric.
 
-```bash
+```textile
 1, 2, 3-AF, 3-01 // Compliance
 
 01A, 02*A3, A3+F // Non-Compliance
