@@ -2,6 +2,6 @@
 
 Choose your path:
 
-* [I choose you](english/normal-dungeon/begin-journey.md)
+* [I choose you, the normal dungeon](english/normal-dungeon/begin-journey.md)
 
 * [不到長城非好漢](chinese/great-wall/begin-journey.md)
