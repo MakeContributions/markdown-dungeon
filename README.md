@@ -16,7 +16,7 @@ You need install [yarn](https://www.npmjs.com/package/yarn).
 
 1. Clone the repo
 
-```git
+```bash
 git clone https://github.com/MakeContributions/markdown-dungeon.git
 ```
 
