@@ -39,7 +39,7 @@ yarn
 yarn start
 ```
 
-> Ensure you are not using Power bash
+> Ensure you are not using Power shell
 
 6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
