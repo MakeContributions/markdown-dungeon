@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         style={{
           margin: `0 auto`,
           maxWidth: 650,
-          padding: `1rem 1rem`,
+          padding: `2rem 2rem`,
           border: `1px solid #e1e4e8`,
           borderRadius: `10px`,
         }}
