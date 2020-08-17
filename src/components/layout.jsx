@@ -1,5 +1,5 @@
 import React from 'react';
-import { isMobile } from 'react-device-detect';
+import { BrowserView, MobileView, isMobile } from 'react-device-detect';
 
 export default function Layout({ children }) {
   const style = {
@@ -12,7 +12,9 @@ export default function Layout({ children }) {
 
   if (isMobile) {
     style.margin = `auto`;
+    style.border = `inherit`;
+    return <MobileView style={style}>{children}</MobileView>;
   }
 
-  return <div style={style}>{children}</div>;
+  return <BrowserView style={style}>{children}</BrowserView>;
 }
