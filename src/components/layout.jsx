@@ -11,7 +11,7 @@ export default function Layout({ children }) {
   };
 
   if (isMobile) {
-    style.margin = `auto auto`;
+    style.margin = `auto`;
   }
 
   return <div style={style}>{children}</div>;
