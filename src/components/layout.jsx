@@ -1,21 +1,19 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 
 export default function Layout({ children }) {
-  return (
-    <div>
-      <br />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 650,
-          padding: `2rem 2rem`,
-          border: `1px solid #e1e4e8`,
-          borderRadius: `10px`,
-        }}
-      >
-        {children}
-      </div>
-      <br />
-    </div>
-  );
+  const style = {
+    margin: `2rem auto`,
+    maxWidth: 650,
+    padding: `2rem 2rem`,
+    border: `1px solid #e1e4e8`,
+    borderRadius: `10px`,
+  };
+
+  if (isMobile) {
+    style.margin = `auto auto`;
+    style.borderRadius = `0px`;
+  }
+
+  return <div style={style}>{children}</div>;
 }
