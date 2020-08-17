@@ -12,7 +12,8 @@ export default function Layout({ children }) {
 
   if (isMobile) {
     style.margin = `auto auto`;
-    style.borderRadius = `0px`;
+    style.borderRadius = `inherit`;
+    style.border = `inherit`;
   }
 
   return <div style={style}>{children}</div>;
