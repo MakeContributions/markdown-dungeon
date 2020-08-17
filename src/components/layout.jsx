@@ -7,13 +7,11 @@ export default function Layout({ children }) {
     maxWidth: 650,
     padding: `2rem 2rem`,
     border: `1px solid #e1e4e8`,
-    borderRadius: `10px`,
+    borderRadius: `6px`,
   };
 
   if (isMobile) {
-    style.margin = `auto auto`;
-    style.borderRadius = `inherit`;
-    style.border = `inherit`;
+    style.margin = `1rem 1rem`;
   }
 
   return <div style={style}>{children}</div>;
