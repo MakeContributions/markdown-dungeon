@@ -15,10 +15,7 @@ export default function BlogPost({ data }) {
   // highlight-end
   return (
     <Layout>
-      <div
-        className='blog-post-content'
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Layout>
   );
 }
