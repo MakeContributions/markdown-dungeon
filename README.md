@@ -10,8 +10,10 @@ This is an example repo illustration of a dungeon using **Markdown** on Github.
 In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
 It is collaborative because the room is written by many authors.
 
-|[Start a new game](./start-new-game.md)|
+
+ |[Start a new game](./start-new-game.md)|
 |---|
+
 
 ---
 
@@ -50,6 +52,8 @@ yarn start
 
 </details>
 
+---
+
 <details><summary>👷‍♂️<h2>Floor and the room format</h2></summary>
  
  A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
@@ -61,6 +65,8 @@ The Markdown capability links is used for up/down and go to another room, like b
 [Go to Github dungeon](https://github.com/)
 ```
 </details>
+
+---
 
 <details><summary>👩‍💻<h2>Contribution Guidelines</h2></summary>
  
@@ -120,6 +126,8 @@ The Markdown capability links is used for up/down and go to another room, like b
     </details>
     
 </details>
+
+---
 
 ## License 📝
 
