@@ -13,7 +13,7 @@ It is collaborative because the room is written by many authors.
 |[Start a new game](./start-new-game.md)|
 |---|
 
-<details><summary><h2>Installation</h2></summary>
+<details><summary>📥<h2>Installation</h2></summary>
 
 You need install [yarn](https://www.npmjs.com/package/yarn).
 
@@ -48,7 +48,7 @@ yarn start
 
 </details>
 
-<details><summary><h2>Floor and the room format</h2></summary>
+<details><summary>👷‍♂️<h2>Floor and the room format</h2></summary>
  
  A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
@@ -60,7 +60,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 ```
 </details>
 
-<details><summary><h2>Contribution Guidelines</h2></summary>
+<details><summary>👩‍💻<h2>Contribution Guidelines</h2></summary>
  
 1.  <strong>Make Adequately Sized Changes</strong>
     - Keep changes small
@@ -74,7 +74,7 @@ The Markdown capability links is used for up/down and go to another room, like b
        
        </details>
 
-2. <details><summary><strong>Dungeon Structure</strong></summary>
+2. <details><summary><strong>⛩ Dungeon Structure</strong></summary>
 
    Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
 
@@ -100,19 +100,19 @@ The Markdown capability links is used for up/down and go to another room, like b
    
    </details> 
 
-3. <details><summary><strong>Use Relative Links</strong></summary>
+3. <details><summary><strong>🔗 Use Relative Links</strong></summary>
  
    The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
    
    </details>
 
-4. <details><summary><strong>Line Lengths</strong></summary>
+4. <details><summary><strong>📏 Line Lengths</strong></summary>
  
      Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
      
      </details>
      
-4. <details><summary><strong>Blank Lines Between Options</strong></summary>
+4. <details><summary><strong>🪓 Blank Lines Between Options</strong></summary>
 
     Insert blank lines between the different options so that the options are visually separated.
     </details>
