@@ -10,10 +10,14 @@ This is an example repo illustration of a dungeon using **Markdown** on Github.
 In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
 It is collaborative because the room is written by many authors.
 
-|[Start a new game](./start-new-game.md)|
+
+ |[Start a new game](./start-new-game.md)|
 |---|
 
-# Installation
+
+---
+
+<details><summary>📥<h2>Installation</h2></summary>
 
 You need install [yarn](https://www.npmjs.com/package/yarn).
 
@@ -46,9 +50,13 @@ yarn start
 
 6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
-# Floor and the room format
+</details>
 
-A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
+---
+
+<details><summary>👷‍♂️<h2>Floor and the room format</h2></summary>
+ 
+ A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
 
 [Go to Github dungeon](https://github.com/)
@@ -56,57 +64,72 @@ The Markdown capability links is used for up/down and go to another room, like b
 ```markdown
 [Go to Github dungeon](https://github.com/)
 ```
+</details>
 
-# Contribution Guidelines
+---
 
-### Make Adequately Sized Changes
+<details><summary>👩‍💻<h2>Contribution Guidelines</h2></summary>
+ 
+1.  <strong>Make Adequately Sized Changes</strong>
+    - Keep changes small
+    - Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+    - <details><summary>Here are some examples of appropriate changes:</summary>
 
-- Keep changes small
-- Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+       - Add one or two sentences to an existing "page" (file) in the room.
+       - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
+       - Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
+       - Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
+       
+       </details>
 
-#### Here are some examples of appropriate changes:
+2. <details><summary><strong>⛩ Dungeon Structure</strong></summary>
 
-- Add one or two sentences to an existing "page" (file) in the room.
-- Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
-- Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
-- Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
+   Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
 
-### Dungeon Structure
+   - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
+   - floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
 
-Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
+   ```textile
+   1, 2, 3 // Compliance
 
-- dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
-- floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
+   01, 02, A3 // Non-Compliance
+   ```
 
-```textile
-1, 2, 3 // Compliance
+   - room-number: is a markdown file, the name of the file should be in numeric, but if has sub-rooms of the room you could separate the room number with a dash(-), the sub room could be alphanumeric.
 
-01, 02, A3 // Non-Compliance
-```
+   ```textile
+   1, 2, 3-AF, 3-01 // Compliance
 
-- room-number: is a markdown file, the name of the file should be in numeric, but if has sub-rooms of the room you could separate the room number with a dash(-), the sub room could be alphanumeric.
+   01A, 02*A3, A3+F // Non-Compliance
+   ```
 
-```textile
-1, 2, 3-AF, 3-01 // Compliance
+   > Folder or file name only accept all ASCII characters and the dash(-).
+   > If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+   
+   </details> 
 
-01A, 02*A3, A3+F // Non-Compliance
-```
+3. <details><summary><strong>🔗 Use Relative Links</strong></summary>
+ 
+   The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
+   
+   </details>
 
-> Folder or file name only accept all ASCII characters and the dash(-).
-> If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+4. <details><summary><strong>📏 Line Lengths</strong></summary>
+ 
+     Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
+     
+     </details>
+     
+4. <details><summary><strong>🪓 Blank Lines Between Options</strong></summary>
 
-### Use Relative Links
+    Insert blank lines between the different options so that the options are visually separated.
+    </details>
+    
+</details>
 
-The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
+---
 
-### Line Length
+## License 📝
 
-Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
-
-### Blank Lines Between Options
-
-Insert blank lines between the different options so that the options are visually separated.
-
-# License
-
-[MIT](./LICENSE) © MakeContributions
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2015 © <a href="https://github.com/MakeContributions" target="_blank">MakeContributions</a>.
