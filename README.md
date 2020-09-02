@@ -13,6 +13,112 @@ It is collaborative because the room is written by many authors.
 |[Start a new game](./start-new-game.md)|
 |---|
 
-# License
+<details><summary><h2>Installation</h2></summary>
+
+You need install [yarn](https://www.npmjs.com/package/yarn).
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/MakeContributions/markdown-dungeon.git
+```
+
+2. Got to folder
+
+```bash
+cd markdown-dungeon
+```
+
+3. Run install dependecy
+
+```bash
+yarn
+```
+
+4. Create a `.env.development` file in the project root folder and copy the format of `.env.example` file.
+5. To start the development server run:
+
+```bash
+yarn start
+```
+
+> Ensure you are not using Power shell
+
+6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
+
+</details>
+
+<details><summary><h2>Floor and the room format</h2></summary>
+ 
+ A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
+The Markdown capability links is used for up/down and go to another room, like below example.
+
+[Go to Github dungeon](https://github.com/)
+
+```markdown
+[Go to Github dungeon](https://github.com/)
+```
+</details>
+
+<details><summary><h2>Contribution Guidelines</h2></summary>
+ 
+1.  <strong>Make Adequately Sized Changes</strong>
+    - Keep changes small
+    - Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+    - <details><summary>Here are some examples of appropriate changes:</summary>
+
+       - Add one or two sentences to an existing "page" (file) in the room.
+       - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
+       - Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
+       - Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
+       
+       </details>
+
+2. <details><summary><strong>Dungeon Structure</strong></summary>
+
+   Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
+
+   - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
+   - floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
+
+   ```textile
+   1, 2, 3 // Compliance
+
+   01, 02, A3 // Non-Compliance
+   ```
+
+   - room-number: is a markdown file, the name of the file should be in numeric, but if has sub-rooms of the room you could separate the room number with a dash(-), the sub room could be alphanumeric.
+
+   ```textile
+   1, 2, 3-AF, 3-01 // Compliance
+
+   01A, 02*A3, A3+F // Non-Compliance
+   ```
+
+   > Folder or file name only accept all ASCII characters and the dash(-).
+   > If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+   
+   </details> 
+
+3. <details><summary><strong>Use Relative Links</strong></summary>
+ 
+   The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
+   
+   </details>
+
+4. <details><summary><strong>Line Lengths</strong></summary>
+ 
+     Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
+     
+     </details>
+     
+4. <details><summary><strong>Blank Lines Between Options</strong></summary>
+
+    Insert blank lines between the different options so that the options are visually separated.
+    </details>
+    
+</details>
+
+### License
 
 [MIT](./LICENSE) © MakeContributions
