@@ -13,6 +13,8 @@ It is collaborative because the room is written by many authors.
 |[Start a new game](./start-new-game.md)|
 |---|
 
+---
+
 <details><summary>📥<h2>Installation</h2></summary>
 
 You need install [yarn](https://www.npmjs.com/package/yarn).
@@ -119,6 +121,7 @@ The Markdown capability links is used for up/down and go to another room, like b
     
 </details>
 
-### License
+## License 📝
 
-[MIT](./LICENSE) © MakeContributions
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2015 © <a href="https://github.com/MakeContributions" target="_blank">MakeContributions</a>.
