@@ -16,8 +16,8 @@ It is collaborative because the room is written by many authors.
 
 
 ---
-
-<details><summary>📥<h2>Installation</h2></summary>
+## 📥 Installation
+<details>
 
 You need install [yarn](https://www.npmjs.com/package/yarn).
 
@@ -54,7 +54,8 @@ yarn start
 
 ---
 
-<details><summary>👷‍♂️<h2>Floor and the room format</h2></summary>
+## 👷‍♂️ Floor and the room format
+<details>
  
  A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
@@ -68,12 +69,13 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 ---
 
-<details><summary>👩‍💻<h2>Contribution Guidelines</h2></summary>
+## 👩‍💻 Contribution Guidelines
+<details>
  
 1.  <strong>Make Adequately Sized Changes</strong>
     - Keep changes small
     - Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
-    - <details><summary>Here are some examples of appropriate changes:</summary>
+    - <details><summary>📏 Here are some examples of appropriate changes:</summary>
 
        - Add one or two sentences to an existing "page" (file) in the room.
        - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
