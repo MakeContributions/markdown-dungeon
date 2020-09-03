@@ -14,8 +14,6 @@ It is collaborative because the room is written by many authors.
  |[Start a new game](./start-new-game.md)|
 |---|
 
-
----
 ## 📥 Installation
 <details>
 
@@ -51,8 +49,6 @@ yarn start
 6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
 </details>
-
----
 
 ## 👷‍♂️ Floor and the room format
 <details>
@@ -119,8 +115,6 @@ Keep all lines 120 characters or less. Otherwise, the raw files will be difficul
 Insert blank lines between the different options so that the options are visually separated.
 
 </details>
-
----
 
 ## License 📝
 
