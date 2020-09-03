@@ -65,7 +65,8 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 ## 👩‍💻 Contribution Guidelines
 <details>
- 
+
+
 ### 1. 📐 Make Adequately Sized Changes
 - Keep changes small
 - Don't add an option without adding any gate for readers who decide on that option,
