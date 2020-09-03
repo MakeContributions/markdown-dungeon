@@ -63,8 +63,6 @@ The Markdown capability links is used for up/down and go to another room, like b
 ```
 </details>
 
----
-
 ## 👩‍💻 Contribution Guidelines
 <details>
  
