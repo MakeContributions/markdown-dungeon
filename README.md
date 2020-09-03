@@ -72,19 +72,20 @@ The Markdown capability links is used for up/down and go to another room, like b
 ## 👩‍💻 Contribution Guidelines
 <details>
  
-1.  <strong>Make Adequately Sized Changes</strong>
-    - Keep changes small
-    - Don't add an option without adding any gate for readers who decide on that option, so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
-    - <details><summary>📏 Here are some examples of appropriate changes:</summary>
-
-       - Add one or two sentences to an existing "page" (file) in the room.
-       - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
-       - Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
-       - Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
+### 1. 📐 Make Adequately Sized Changes
+- Keep changes small
+- Don't add an option without adding any gate for readers who decide on that option,
+so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+<details><summary>Here are some examples of appropriate changes:</summary>
+ 
+- Add one or two sentences to an existing "page" (file) in the room.
+- Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
+- Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
+- Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
        
-       </details>
+</details>
 
-2. <details><summary><strong>⛩ Dungeon Structure</strong></summary>
+### 2. ⛩ Dungeon Structure
 
    Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
 
@@ -108,25 +109,15 @@ The Markdown capability links is used for up/down and go to another room, like b
    > Folder or file name only accept all ASCII characters and the dash(-).
    > If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
    
-   </details> 
+### 3. 🔗 Use Relative Links
+The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
 
-3. <details><summary><strong>🔗 Use Relative Links</strong></summary>
- 
-   The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
-   
-   </details>
-
-4. <details><summary><strong>📏 Line Lengths</strong></summary>
- 
-     Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
+### 4. 📏 Line Lengths
+Keep all lines 120 characters or less. Otherwise, the raw files will be difficult to read in the browser or on the command line, and the changes will be more difficult to review.
      
-     </details>
-     
-4. <details><summary><strong>🪓 Blank Lines Between Options</strong></summary>
+### 5. 🪓 Blank Lines Between Options
+Insert blank lines between the different options so that the options are visually separated.
 
-    Insert blank lines between the different options so that the options are visually separated.
-    </details>
-    
 </details>
 
 ---
