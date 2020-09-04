@@ -15,7 +15,7 @@ It is collaborative because the room is written by many authors.
 |---|
 
 ## 📥 Installation
-<details>
+<details><summary>Details</summary>
 
 You need install [yarn](https://www.npmjs.com/package/yarn).
 
@@ -51,7 +51,7 @@ yarn start
 </details>
 
 ## 👷‍♂️ Floor and the room format
-<details>
+<details><summary>Details</summary>
  
  A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
@@ -64,7 +64,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 </details>
 
 ## 👩‍💻 Contribution Guidelines
-<details>
+<details><summary>Details</summary>
 
 
 ### 1. 📐 Make Adequately Sized Changes
@@ -82,7 +82,7 @@ so the dungeon will not be full of deadlinks. Instead, the last markdown file th
 
 ### 2. ⛩ Dungeon Structure
 
-   Structure should be `dungeon-name/floor-number/room-number`, please see below definiotion of each variables:
+   Structure should be `dungeon-name/floor-number/room-number`, please see below definition of each variables:
 
    - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
    - floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
