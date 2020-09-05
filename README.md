@@ -116,6 +116,4 @@ Insert blank lines between the different options so that the options are visuall
 </details>
 
 ## License 📝
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="https://github.com/MakeContributions" target="_blank">MakeContributions</a>.
+[MIT](./LICENSE)
