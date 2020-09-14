@@ -77,8 +77,6 @@ so the dungeon will not be full of deadlinks. Instead, the last markdown file th
 - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
 - Add a new option to an existing choice point, create a new "page" for that option, and add a sentence or two to the new "page".
 - Add a couple of options to a current dead-end "page", and add a "page" or link to an existing "page" for each option.
-       
-</details>
 
 ### 2. ⛩ Dungeon Structure
 
