@@ -71,7 +71,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 - Keep changes small
 - Don't add an option without adding any gate for readers who decide on that option,
 so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
-<details><summary>Here are some examples of appropriate changes:</summary>
+#### Here are some examples of appropriate changes:
  
 - Add one or two sentences to an existing "page" (file) in the room.
 - Add a new option to an existing choice point, and link that option to an existing "room" or "floor".
