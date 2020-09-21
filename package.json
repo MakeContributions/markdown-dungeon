@@ -14,7 +14,7 @@
     "gatsby-image": "^2.4.19",
     "gatsby-plugin-catch-links": "^2.3.12",
     "gatsby-plugin-manifest": "^2.4.21",
-    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-offline": "^3.2.28",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-sharp": "^2.6.24",
     "gatsby-remark-autolink-headers": "^2.3.13",
