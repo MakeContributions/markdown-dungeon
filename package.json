@@ -28,7 +28,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.1.0",
     "react-scripts": "^3.4.1",
     "react-typography": "^0.16.19",
     "react-device-detect": "^1.13.1",
