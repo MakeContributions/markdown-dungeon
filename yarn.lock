@@ -7791,10 +7791,10 @@ gatsby-page-utils@^0.2.26:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-catch-links@^2.3.12:
-  version "2.3.12"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.3.12.tgz#1342ccb87658acb9a5b5cfccda45494836d5341b"
-  integrity sha512-AGWN8U6Gz1qoUUAfrut8kPITauBWvonFqzKfJZSPCkAIrY8lzq1G4w5VhlqrUaK1jhSrfSfXN0U8A3F85oVNvQ==
+gatsby-plugin-catch-links@^2.3.13:
+  version "2.3.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.3.13.tgz#8bf149ff481fbc972b597423eb84cf37a0cb7af3"
+  integrity sha512-hrVhIR1zjkQk1PMbgG7TPEybju9GfqLa1f0vyZxeZXcwxP3I5db3vgxftui8GMISI829o42FpF10ADrgEbRg7w==
   dependencies:
     "@babel/runtime" "^7.11.2"
     escape-string-regexp "^1.0.5"
