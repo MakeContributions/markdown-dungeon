@@ -20,7 +20,7 @@
     "gatsby-remark-autolink-headers": "^2.3.14",
     "gatsby-plugin-typography": "^2.5.12",
     "gatsby-remark-prismjs": "^3.5.15",
-    "gatsby-source-filesystem": "^2.3.32",
+    "gatsby-source-filesystem": "^2.3.33",
     "gatsby-transformer-remark": "^2.8.37",
     "gatsby-transformer-sharp": "^2.5.16",
     "prism-themes": "^1.4.1",
