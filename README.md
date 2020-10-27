@@ -80,6 +80,8 @@ so the dungeon will not be full of deadlinks. Instead, the last markdown file th
 
 ### 2. ⛩ Dungeon Structure
 
+
+
    Structure should be `dungeon-name/floor-number/room-number`, please see below definition of each variables:
 
    - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
@@ -115,3 +117,4 @@ Insert blank lines between the different options so that the options are visuall
 
 ## License 📝
 [MIT](./LICENSE)
+
