@@ -6,4 +6,6 @@ Choose your path:
 
 * [不到長城非好漢](chinese/great-wall/begin-journey.md)
 
+* [I choose you, the Covid-19 dungeon](english/covid-19/begin-journey.md)
+
 * [Eu escolho você, a duengon normal](portuguese/normal-dugeon/begin-journey.md)
