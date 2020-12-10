@@ -1,7 +1,7 @@
 Great! Which book will you read?
 
-[Harry Potter](#)
+[Harry Potter](../WIP.md)
 
-[The Invisible Man](#)
+[The Invisible Man](../WIP.md)
 
 [Go into dungeon](1.md)
