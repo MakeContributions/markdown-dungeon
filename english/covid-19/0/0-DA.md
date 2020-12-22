@@ -4,4 +4,4 @@ You try to exercise once more, but you are very much tired.
 
 [Find a way out](../WIP.md)
 
-[Go into dungeon](1.md)
+[Go into dungeon](../1/1.md)
