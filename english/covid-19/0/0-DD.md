@@ -4,4 +4,4 @@ Great! Which book will you read?
 
 [The Invisible Man](../WIP.md)
 
-[Go into dungeon](1.md)
+[Go into dungeon](../1/1.md)
