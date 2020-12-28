@@ -2,7 +2,7 @@ You try to break the chain with the power you acquired. Wow! It broke into piece
 
 Hearing the sound came the figures. What will you do?
 
-[Fight them!](../WIP.md)
+[⚔️ Fight them! ](../WIP.md)
 
 [Run away!](../1/1-A.md)
 
