@@ -113,5 +113,5 @@ Insert blank lines between the different options so that the options are visuall
 
 </details>
 
-## License 📝
+## 📝 License
 [MIT](./LICENSE)
