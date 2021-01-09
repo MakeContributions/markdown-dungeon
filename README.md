@@ -100,7 +100,10 @@ so the dungeon will not be full of deadlinks. Instead, the last markdown file th
    ```
 
    > Folder or file name only accept all ASCII characters and the dash(-).
+
    > If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+   
+   > If you want to get an idea of which option leads to what when contributing, look for `decision_tree.png` file under any dungeon folder, which contains a graphical view of that dungeon.
    
 ### 3. 🔗 Use Relative Links
 The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
