@@ -4,4 +4,4 @@ You walk 🚶‍♂️ out of your house with no precautionary methods to meet a
 
 [🤠 Begin your journey](0/0.md)
 
-🚧 This dungeon is still under development. You can still play it and have fun. To complete the dungeon, you can [contribute](https://github.com/MakeContributions/markdown-dungeon#-contribution-guidelines). 🚧
+🚧 This dungeon is still under development. You can still play it and have fun. To complete the dungeon, you can [contribute](../../#contribution-guidelines). 🚧
