@@ -8,4 +8,4 @@ Choose your path:
 
 * [Save yourself from the viruses!](english/covid-19/begin-journey.md)
 
-* [Eu escolho você, a duengon normal](portuguese/normal-dugeon/begin-journey.md)
+* [Eu escolho você, a dungeon normal](portuguese/normal-dugeon/begin-journey.md)
