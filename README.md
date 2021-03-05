@@ -15,8 +15,6 @@ It is collaborative because the room is written by many authors.
 |---|
 
 ## 📥 Installation
-<details><summary>Details</summary>
-
 You need install [yarn](https://www.npmjs.com/package/yarn).
 
 1. Clone the repo
@@ -48,10 +46,7 @@ yarn start
 
 6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
-</details>
-
 ## 👷‍♂️ Floor and the room format
-<details><summary>Details</summary>
  
  A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
 The Markdown capability links is used for up/down and go to another room, like below example.
@@ -61,12 +56,8 @@ The Markdown capability links is used for up/down and go to another room, like b
 ```markdown
 [Go to Github dungeon](https://github.com/)
 ```
-</details>
 
 ## 👩‍💻 Contribution Guidelines
-<details><summary>Details</summary>
-
-
 ### 1. 📐 Make Adequately Sized Changes
 - Keep changes small
 - Don't add an option without adding any gate for readers who decide on that option,
@@ -113,8 +104,6 @@ Keep all lines 120 characters or less. Otherwise, the raw files will be difficul
      
 ### 5. 🪓 Blank Lines Between Options
 Insert blank lines between the different options so that the options are visually separated.
-
-</details>
 
 ## 📝 License
 [MIT](./LICENSE)
