@@ -59,13 +59,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+function getName(url) {
+  return url.split('/')[2];
+}
 
 export default function Home({ data }) {
   const classes = useStyles();
-  const post = data;
-  console.log(post);
-  console.log(classes);
+  const posts = data.allMarkdownRemark.nodes;
+
   return (
     <React.Fragment>
       <CssBaseline />
@@ -86,27 +87,13 @@ export default function Home({ data }) {
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
               A dungeon is a room or cell in which prisoners are held, especially underground.
             </Typography>
-            <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid item>
-                  <Button variant="contained" color="primary">
-                    Main call to action
-                  </Button>
-                </Grid>
-                <Grid item>
-                  <Button variant="outlined" color="primary">
-                    Secondary action
-                  </Button>
-                </Grid>
-              </Grid>
-            </div>
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+            {posts.map((post, index) => (
+              <Grid item key={index} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
@@ -115,18 +102,15 @@ export default function Home({ data }) {
                   />
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      {getName(post.fields.slug)}
                     </Typography>
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      {post.excerpt}
                     </Typography>
                   </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary">
+                  <CardActions dir="rtl">
+                    <Button size="small" color="primary" href={post.fields.slug.slice(0, -1)}>
                       View
-                    </Button>
-                    <Button size="small" color="primary">
-                      Edit
                     </Button>
                   </CardActions>
                 </Card>
@@ -148,10 +132,10 @@ export const query = graphql`
   query {
     allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/begin-journey/"}}) {
       nodes {
-        rawMarkdownBody
         fields {
           slug
         }
+        excerpt(truncate: true, pruneLength: 100)
       }
     }
   }
