@@ -44,7 +44,7 @@ yarn start
 
 > Ensure you are not using Power shell
 
-6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/\_\_\_graphql
+6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
 ## 👷‍♂️ Floor and the room format
 
