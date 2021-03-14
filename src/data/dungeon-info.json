@@ -1,0 +1,26 @@
+[
+  {
+    "name": "normal-dungeon",
+    "display": "The Normal Dungeon",
+    "image": "",
+    "language": "english"
+  },
+  {
+    "name": "great-wall",
+    "display": "長城",
+    "image": "",
+    "language": "chinese"
+  },
+  {
+    "name": "covid-19",
+    "display": "COVID-19",
+    "image": "",
+    "language": "english"
+  },
+  {
+    "name": "normal-dugeon",
+    "display": "O Calabouço Normal",
+    "image": "",
+    "language": "portuguese"
+  }
+]
