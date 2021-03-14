@@ -5,6 +5,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Markdown Dungeon`,
+    siteUrl: `https://markdown-dungeon.netlify.app/`,
     description: `A dungeon is a room or cell in which prisoners are held, especially underground`,
   },
   plugins: [
