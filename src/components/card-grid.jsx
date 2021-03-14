@@ -25,7 +25,7 @@ export default function CardGrid(props) {
       <Card className={classes.card}>
         <CardMedia
           className={classes.cardMedia}
-          image='https://source.unsplash.com/random'
+          image={info.image === '' ? '../../images/dungeon.jpg' : `../../images/${info.image}`}
           title='Image title'
         />
         <CardContent className={classes.cardContent}>

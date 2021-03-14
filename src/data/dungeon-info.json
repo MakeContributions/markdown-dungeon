@@ -8,13 +8,13 @@
   {
     "name": "great-wall",
     "display": "長城",
-    "image": "",
+    "image": "great-wall.jpg",
     "language": "chinese"
   },
   {
     "name": "covid-19",
     "display": "COVID-19",
-    "image": "",
+    "image": "covid-19.jpg",
     "language": "english"
   },
   {
