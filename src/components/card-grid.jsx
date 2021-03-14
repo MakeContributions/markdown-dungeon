@@ -30,7 +30,7 @@ export default function CardGrid(props) {
         <CardMedia
           className={classes.cardMedia}
           image={defaultImage}
-          title='Image title'
+          title={info.display}
         />
         <CardContent className={classes.cardContent}>
           <Typography gutterBottom variant='h5' component='h2'>
