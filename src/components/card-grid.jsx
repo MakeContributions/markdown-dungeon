@@ -19,13 +19,17 @@ export default function CardGrid(props) {
     (d) => d.name === splited[2] && d.language === splited[1]
   );
   post.excerpt = post.excerpt.replace(' 🤠開始', '');
-  return (
-    info ?
+  const defaultImage =
+    info === undefined || info.image === ''
+      ? `${process.env.GATSBY_BASE_IMAGE_URL}${process.env.GATSBY_DEFAULT_IMAGE_NAME}`
+      : `${process.env.GATSBY_BASE_IMAGE_URL}${info.image}`;
+
+  return info ? (
     <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.card}>
         <CardMedia
           className={classes.cardMedia}
-          image={info.image === '' ? '../../images/dungeon.jpg' : `../../images/${info.image}`}
+          image={defaultImage}
           title='Image title'
         />
         <CardContent className={classes.cardContent}>
@@ -40,6 +44,6 @@ export default function CardGrid(props) {
           </Button>
         </CardActions>
       </Card>
-    </Grid> : null
-  );
+    </Grid>
+  ) : null;
 }
