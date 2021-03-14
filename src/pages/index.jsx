@@ -1,13 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
+import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 
 export default function Home({ data }) {
@@ -17,13 +16,7 @@ export default function Home({ data }) {
   return (
     <React.Fragment>
       <CssBaseline />
-      <AppBar position='relative'>
-        <Toolbar>
-          <Typography variant='h6' color='inherit' noWrap>
-            Markdown Dungeon
-          </Typography>
-        </Toolbar>
-      </AppBar>
+      <HideAppBar />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
