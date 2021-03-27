@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserView, MobileView } from 'react-device-detect';
 import { graphql } from 'gatsby';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
@@ -6,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
+import MobileCardGrid from '../components/mobile-card-grid';
 import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 
@@ -39,7 +41,8 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth={8}>
+        <BrowserView>
+        <Container className={classes.cardGrid} maxWidth='xl'>
           {/* End hero unit */}
           <Grid container spacing={8}>
             {posts.map((post, index) => (
@@ -47,6 +50,17 @@ export default function Home({ data }) {
             ))}
           </Grid>
         </Container>
+        </BrowserView>
+        <MobileView>
+          <Container className={classes.cardGrid} maxWidth='xl'>
+          {/* End hero unit */}
+          <Grid container spacing={8}>
+            {posts.map((post, index) => (
+              <MobileCardGrid item key={index} post={post} />
+            ))}
+          </Grid>
+        </Container>
+        </MobileView>
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
