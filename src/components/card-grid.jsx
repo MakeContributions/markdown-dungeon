@@ -27,7 +27,7 @@ export default function CardGrid(props) {
 
   return info ? (
     <Grid item xs={3}>
-      <CardActionArea href={slug.slice(0, -1)}>
+      <CardActionArea href={slug.slice(0, -1)} style={{textDecoration: "none"}}>
       <Card className={classes.card}>
         <CardMedia
           className={classes.cardMedia}
