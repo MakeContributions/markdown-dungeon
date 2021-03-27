@@ -27,25 +27,28 @@ export default function CardGrid(props) {
 
   return info ? (
     <Grid item xs={3}>
-      <CardActionArea href={slug.slice(0, -1)} style={{textDecoration: "none"}}>
-      <Card className={classes.card}>
-        <CardMedia
-          className={classes.cardMedia}
-          image={defaultImage}
-          title={info.display}
-        />
-        <CardContent className={classes.cardContent}>
-          <Typography gutterBottom variant='h5' component='h2'>
-            {info.display}
-          </Typography>
-          <Typography>{post.excerpt}</Typography>
-        </CardContent>
-        <CardActions dir='rtl'>
-          <Button size='small' color='primary'>
-            <ArrowForwardIcon />
-          </Button>
-        </CardActions>
-      </Card>
+      <CardActionArea
+        href={slug.slice(0, -1)}
+        style={{ textDecoration: 'none' }}
+      >
+        <Card className={classes.card}>
+          <CardMedia
+            className={classes.cardMedia}
+            image={defaultImage}
+            title={info.display}
+          />
+          <CardContent className={classes.cardContent}>
+            <Typography gutterBottom variant="h5" component="h2">
+              {info.display}
+            </Typography>
+            <Typography>{post.excerpt}</Typography>
+          </CardContent>
+          <CardActions dir="rtl">
+            <Button size="small" color="primary">
+              <ArrowForwardIcon />
+            </Button>
+          </CardActions>
+        </Card>
       </CardActionArea>
     </Grid>
   ) : null;

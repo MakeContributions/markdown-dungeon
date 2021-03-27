@@ -27,25 +27,28 @@ export default function MobileCardGrid(props) {
 
   return info ? (
     <Grid item xs={12} sm={6} md={4}>
-      <CardActionArea href={slug.slice(0, -1)} style={{textDecoration: "none"}}>
-      <Card className={classes.card}>
-        <CardMedia
-          className={classes.cardMedia}
-          image={defaultImage}
-          title={info.display}
-        />
-        <CardContent className={classes.cardContent}>
-          <Typography gutterBottom variant='h5' component='h2'>
-            {info.display}
-          </Typography>
-          <Typography>{post.excerpt}</Typography>
-        </CardContent>
-        <CardActions dir='rtl'>
-          <Button size='small' color='primary' href={slug.slice(0, -1)}>
-            <ArrowForwardIcon />
-          </Button>
-        </CardActions>
-      </Card>
+      <CardActionArea
+        href={slug.slice(0, -1)}
+        style={{ textDecoration: 'none' }}
+      >
+        <Card className={classes.card}>
+          <CardMedia
+            className={classes.cardMedia}
+            image={defaultImage}
+            title={info.display}
+          />
+          <CardContent className={classes.cardContent}>
+            <Typography gutterBottom variant="h5" component="h2">
+              {info.display}
+            </Typography>
+            <Typography>{post.excerpt}</Typography>
+          </CardContent>
+          <CardActions dir="rtl">
+            <Button size="small" color="primary" href={slug.slice(0, -1)}>
+              <ArrowForwardIcon />
+            </Button>
+          </CardActions>
+        </Card>
       </CardActionArea>
     </Grid>
   ) : null;

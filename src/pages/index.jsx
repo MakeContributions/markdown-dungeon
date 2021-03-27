@@ -19,20 +19,20 @@ export default function Home({ data }) {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth='sm'>
+          <Container maxWidth="sm">
             <Typography
-              component='h1'
-              variant='h2'
-              align='center'
-              color='textPrimary'
+              component="h1"
+              variant="h2"
+              align="center"
+              color="textPrimary"
               gutterBottom
             >
               Markdown Dungeon
             </Typography>
             <Typography
-              variant='h5'
-              align='center'
-              color='textSecondary'
+              variant="h5"
+              align="center"
+              color="textSecondary"
               paragraph
             >
               A dungeon is a room or cell in which prisoners are held,
@@ -41,24 +41,24 @@ export default function Home({ data }) {
           </Container>
         </div>
         <BrowserView>
-        <Container className={classes.cardGrid} maxWidth='xl'>
-          {/* End hero unit */}
-          <Grid container spacing={8}>
-            {posts.map((post, index) => (
-              <CardGrid item key={index} post={post} />
-            ))}
-          </Grid>
-        </Container>
+          <Container className={classes.cardGrid} maxWidth="xl">
+            {/* End hero unit */}
+            <Grid container spacing={8}>
+              {posts.map((post, index) => (
+                <CardGrid item key={index} post={post} />
+              ))}
+            </Grid>
+          </Container>
         </BrowserView>
         <MobileView>
-          <Container className={classes.cardGrid} maxWidth='xl'>
-          {/* End hero unit */}
-          <Grid container spacing={8}>
-            {posts.map((post, index) => (
-              <MobileCardGrid item key={index} post={post} />
-            ))}
-          </Grid>
-        </Container>
+          <Container className={classes.cardGrid} maxWidth="xl">
+            {/* End hero unit */}
+            <Grid container spacing={8}>
+              {posts.map((post, index) => (
+                <MobileCardGrid item key={index} post={post} />
+              ))}
+            </Grid>
+          </Container>
         </MobileView>
       </main>
       {/* Footer */}
