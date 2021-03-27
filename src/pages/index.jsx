@@ -12,11 +12,9 @@ import { homeStyles } from '../utils/styles';
 export default function Home({ data }) {
   const classes = homeStyles();
   const posts = data.allMarkdownRemark.nodes;
-
   return (
     <React.Fragment>
       <CssBaseline />
-      <HideAppBar />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
@@ -41,9 +39,9 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='md'>
+        <Container className={classes.cardGrid} maxWidth={8}>
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={8}>
             {posts.map((post, index) => (
               <CardGrid item key={index} post={post} />
             ))}
