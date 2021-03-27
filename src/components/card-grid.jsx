@@ -6,8 +6,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import infos from '../data/dungeon-info.json';
 import Grid from '@material-ui/core/Grid';
+import infos from '../data/dungeon-info.json';
 import { homeStyles } from '../utils/styles';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
