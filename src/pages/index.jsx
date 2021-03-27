@@ -8,7 +8,6 @@ import Container from '@material-ui/core/Container';
 import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
 import MobileCardGrid from '../components/mobile-card-grid';
-import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 
 export default function Home({ data }) {
