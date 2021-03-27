@@ -41,7 +41,7 @@ export default function CardGrid(props) {
           <Typography>{post.excerpt}</Typography>
         </CardContent>
         <CardActions dir='rtl'>
-          <Button size='small' color='primary' href={slug.slice(0, -1)}>
+          <Button size='small' color='primary'>
             <ArrowForwardIcon />
           </Button>
         </CardActions>
