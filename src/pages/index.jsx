@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserView, MobileView } from 'react-device-detect';
 import { graphql } from 'gatsby';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
@@ -39,26 +38,14 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-        <BrowserView>
           <Container className={classes.cardGrid} maxWidth="xl">
             {/* End hero unit */}
             <Grid container spacing={8}>
               {posts.map((post, index) => (
-                <CardGrid item key={index} post={post} xs={3} />
+                <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
               ))}
             </Grid>
           </Container>
-        </BrowserView>
-        <MobileView>
-          <Container className={classes.cardGrid} maxWidth="xl">
-            {/* End hero unit */}
-            <Grid container spacing={8}>
-              {posts.map((post, index) => (
-                <CardGrid item key={index} post={post} xs={12} sm={6} md={4} />
-              ))}
-            </Grid>
-          </Container>
-        </MobileView>
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
