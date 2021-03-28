@@ -7,7 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
-import MobileCardGrid from '../components/mobile-card-grid';
 import { homeStyles } from '../utils/styles';
 
 export default function Home({ data }) {
@@ -45,7 +44,7 @@ export default function Home({ data }) {
             {/* End hero unit */}
             <Grid container spacing={8}>
               {posts.map((post, index) => (
-                <CardGrid item key={index} post={post} />
+                <CardGrid item key={index} post={post} xs={3} />
               ))}
             </Grid>
           </Container>
@@ -55,7 +54,7 @@ export default function Home({ data }) {
             {/* End hero unit */}
             <Grid container spacing={8}>
               {posts.map((post, index) => (
-                <MobileCardGrid item key={index} post={post} />
+                <CardGrid item key={index} post={post} xs={12} sm={6} md={4} />
               ))}
             </Grid>
           </Container>

@@ -26,7 +26,7 @@ export default function CardGrid(props) {
       : `${process.env.GATSBY_BASE_IMAGE_URL}${info.image}`;
 
   return info ? (
-    <Grid item xs={3}>
+    <Grid item xs={props.xs} sm={props.sm} md={props.md}>
       <CardActionArea
         href={slug.slice(0, -1)}
         style={{ textDecoration: 'none' }}
@@ -43,7 +43,7 @@ export default function CardGrid(props) {
             </Typography>
             <Typography>{post.excerpt}</Typography>
           </CardContent>
-          <CardActions dir="rtl">
+          <CardActions>
             <Button size="small" color="primary">
               <ArrowForwardIcon />
             </Button>
