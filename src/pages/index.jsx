@@ -59,7 +59,7 @@ export default function Home({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: '/begin-journey/' } }
+      filter: { fileAbsolutePath: { regex: "/begin-journey/" } }
     ) {
       nodes {
         fields {
