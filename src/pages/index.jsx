@@ -17,20 +17,20 @@ export default function Home({ data }) {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
+          <Container maxWidth='sm'>
             <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="textPrimary"
+              component='h1'
+              variant='h2'
+              align='center'
+              color='textPrimary'
               gutterBottom
             >
               Markdown Dungeon
             </Typography>
             <Typography
-              variant="h5"
-              align="center"
-              color="textSecondary"
+              variant='h5'
+              align='center'
+              color='textSecondary'
               paragraph
             >
               A dungeon is a room or cell in which prisoners are held,
@@ -38,7 +38,7 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-          <Container className={classes.cardGrid} maxWidth="xl">
+          <Container className={classes.cardGrid} maxWidth='xl'>
             {/* End hero unit */}
             <Grid container spacing={8}>
               {posts.map((post, index) => (
@@ -59,7 +59,7 @@ export default function Home({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/begin-journey/" } }
+      filter: { fileAbsolutePath: { regex: '/begin-journey/' } }
     ) {
       nodes {
         fields {

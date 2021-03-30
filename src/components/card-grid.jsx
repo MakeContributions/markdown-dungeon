@@ -38,13 +38,13 @@ export default function CardGrid(props) {
             title={info.display}
           />
           <CardContent className={classes.cardContent}>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant='h5' component='h2'>
               {info.display}
             </Typography>
             <Typography>{post.excerpt}</Typography>
           </CardContent>
           <CardActions>
-            <Button size="small" color="primary">
+            <Button size='small' color='primary'>
               <ArrowForwardIcon />
             </Button>
           </CardActions>
