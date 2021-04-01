@@ -28,6 +28,7 @@ export default function CardGrid(props) {
   return info ? (
     <Grid item xs={props.xs} sm={props.sm} md={props.md}>
       <CardActionArea
+        className={classes.card}
         href={slug.slice(0, -1)}
         style={{ textDecoration: 'none' }}
       >

@@ -8,14 +8,14 @@ import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
 import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 
 export default function Home({ data }) {
   const classes = homeStyles();
   const posts = data.allMarkdownRemark.nodes;
   return (
     <React.Fragment>
-      <SEO />
+      <Seo />
       <CssBaseline />
       <HideAppBar />
       <main>
@@ -44,7 +44,7 @@ export default function Home({ data }) {
         </div>
         <Container className={classes.cardGrid} maxWidth='lg'>
           {/* End hero unit */}
-          <Grid container spacing={6}>
+          <Grid container spacing={4}>
             {posts.map((post, index) => (
               <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
             ))}
