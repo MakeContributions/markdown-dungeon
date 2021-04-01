@@ -44,7 +44,7 @@ export default function Home({ data }) {
           {/* End hero unit */}
           <Grid container spacing={8}>
             {posts.map((post, index) => (
-              <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
+              <CardGrid item key={index} post={post} xs={12} sm={6} md={4} />
             ))}
           </Grid>
         </Container>
