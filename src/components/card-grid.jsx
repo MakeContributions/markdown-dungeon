@@ -43,7 +43,7 @@ export default function CardGrid(props) {
             </Typography>
             <Typography>{post.excerpt}</Typography>
           </CardContent>
-          <CardActions>
+          <CardActions dir='rtl'>
             <Button size='small' color='primary'>
               <ArrowForwardIcon />
             </Button>
