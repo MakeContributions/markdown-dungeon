@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 export const homeStyles = makeStyles((theme) => ({
   icon: {
@@ -16,16 +16,16 @@ export const homeStyles = makeStyles((theme) => ({
     paddingBottom: theme.spacing(1),
   },
   card: {
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
   },
   cardMedia: {
-    paddingTop: "56.25%", // 16:9
+    paddingTop: '56.25%', // 16:9
   },
   cardContent: {
     flexGrow: 1,
-    textAlign: "center",
+    textAlign: 'center',
   },
   footer: {
     backgroundColor: theme.palette.background.paper,
