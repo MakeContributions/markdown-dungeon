@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
+import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 
 export default function Home({ data }) {
@@ -14,6 +15,7 @@ export default function Home({ data }) {
   return (
     <React.Fragment>
       <CssBaseline />
+      <HideAppBar />
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
