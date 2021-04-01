@@ -42,7 +42,7 @@ export default function Home({ data }) {
         </div>
         <Container className={classes.cardGrid} maxWidth='xl'>
           {/* End hero unit */}
-          <Grid container spacing={8}>
+          <Grid container spacing={6}>
             {posts.map((post, index) => (
               <CardGrid item key={index} post={post} xs={12} sm={6} md={4} />
             ))}
