@@ -41,7 +41,7 @@ export default function CardGrid(props) {
             <Typography gutterBottom variant='h5' component='h2'>
               {info.display}
             </Typography>
-            <Typography>{post.excerpt}</Typography>
+            <Typography>{post.excerpt.slice(0, 65)}</Typography>
           </CardContent>
           <CardActions dir='rtl'>
             <Button size='small' color='primary'>
