@@ -40,14 +40,14 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-          <Container className={classes.cardGrid} maxWidth='xl'>
-            {/* End hero unit */}
-            <Grid container spacing={8}>
-              {posts.map((post, index) => (
-                <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
-              ))}
-            </Grid>
-          </Container>
+        <Container className={classes.cardGrid} maxWidth='xl'>
+          {/* End hero unit */}
+          <Grid container spacing={8}>
+            {posts.map((post, index) => (
+              <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
+            ))}
+          </Grid>
+        </Container>
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
