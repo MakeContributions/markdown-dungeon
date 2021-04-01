@@ -12,8 +12,8 @@ export const homeStyles = makeStyles((theme) => ({
     marginTop: theme.spacing(4),
   },
   cardGrid: {
-    paddingTop: theme.spacing(1),
-    paddingBottom: theme.spacing(1),
+    paddingTop: theme.spacing(8),
+    paddingBottom: theme.spacing(8),
   },
   card: {
     height: '100%',
