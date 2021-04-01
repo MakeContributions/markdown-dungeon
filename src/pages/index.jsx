@@ -13,7 +13,6 @@ import SEO from '../components/seo';
 export default function Home({ data }) {
   const classes = homeStyles();
   const posts = data.allMarkdownRemark.nodes;
-
   return (
     <React.Fragment>
       <SEO />
@@ -43,11 +42,11 @@ export default function Home({ data }) {
             </Typography>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='md'>
+        <Container className={classes.cardGrid} maxWidth='lg'>
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={6}>
             {posts.map((post, index) => (
-              <CardGrid item key={index} post={post} />
+              <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
             ))}
           </Grid>
         </Container>
