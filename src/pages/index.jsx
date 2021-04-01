@@ -8,6 +8,7 @@ import Copyright from '../components/copyright';
 import CardGrid from '../components/card-grid';
 import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
+import SEO from '../components/seo';
 
 export default function Home({ data }) {
   const classes = homeStyles();
@@ -15,6 +16,7 @@ export default function Home({ data }) {
 
   return (
     <React.Fragment>
+      <SEO />
       <CssBaseline />
       <HideAppBar />
       <main>

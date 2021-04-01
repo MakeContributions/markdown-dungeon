@@ -5,7 +5,8 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Markdown Dungeon`,
-    siteUrl: `https://markdown-dungeon.netlify.app/`,
+    url: 'https://markdown-dungeon.netlify.app', // No trailing slash allowed!
+    image: '/images/icon.png', // Path to your image you placed in the 'static' folder
     description: `A dungeon is a room or cell in which prisoners are held, especially underground`,
   },
   plugins: [
@@ -39,6 +40,14 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Markdown Dungeon",
+        short_name: "Markdown Dungeon",
+        icon: "static/images/icon.png", // This path is relative to the root of the site.
       },
     },
   ],
