@@ -37,8 +37,9 @@ export default function Home({ data }) {
               color='textSecondary'
               paragraph
             >
-              A dungeon is a room or cell in which prisoners are held,
-              especially underground.
+              A dungeon is a place or prison where people are held. 
+              <br/>
+              Usually, they can be found underground.
             </Typography>
           </Container>
         </div>
