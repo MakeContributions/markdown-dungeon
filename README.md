@@ -4,7 +4,7 @@
 
  <h1 align="center">⚔️ Markdown Dungeon ⚔️</h1>
 
-> A dungeon is a room or cell in which prisoners are held, especially underground.
+>A dungeon is a place or prison where people are held. Usually, they can be found underground.
 
 This is an example repo illustration of a dungeon using **Markdown** on Github.
 In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
