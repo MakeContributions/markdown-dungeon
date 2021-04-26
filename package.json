@@ -36,6 +36,7 @@
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
     "typography-plugin-code": "^0.16.19",
-    "typography-theme-github": "^0.16.19"
+    "typography-theme-github": "^0.16.19",
+    "yarn": "^1.22.10"
   }
 }
