@@ -1,6 +1,6 @@
 Great! Which game will you play?
 
-[Rock Paper Scissor](../WIP.md)
+[Rock Paper Scissor](0-BBA.md)
 
 [Snake & Ladder](../WIP.md)
 
