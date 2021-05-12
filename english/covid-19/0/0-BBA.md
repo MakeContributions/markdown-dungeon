@@ -1,4 +1,4 @@
-Pick rock, paper, or scissors?
+Pick a rock, paper, or scissors?
 
 [Rock](../WIP.md)
 
