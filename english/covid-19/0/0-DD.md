@@ -1,6 +1,6 @@
 Great! Which book 📖 will you read?
 
-[🪄 Harry Potter](../WIP.md)
+[📖 Harry Potter](../WIP.md)
 
 [The Invisible Man](../WIP.md)
 
