@@ -1,6 +1,6 @@
 Pick a rock, paper, or scissors?
 
-[🪨 Rock](../WIP.md)
+[🥊 Rock](../WIP.md)
 
 [📄 Paper](../WIP.md)
 
