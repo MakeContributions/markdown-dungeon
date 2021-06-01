@@ -1,7 +1,9 @@
-Great! Which book 📖 will you read?
+## Great! 
 
-[📖 Harry Potter](../WIP.md)
+### *Which book 📖 will you read?*
 
-[The Invisible Man](../WIP.md)
+- [ ] [📖 Harry Potter](../WIP.md)
 
-[🏛 Go into dungeon](../1/1.md)
+- [ ] [🕶 The Invisible Man](../WIP.md)
+
+- [ ] [🏛 Go into dungeon](../1/1.md)
