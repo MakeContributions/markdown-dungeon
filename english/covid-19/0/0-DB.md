@@ -5,8 +5,8 @@
 
 ### *What will you do?*
 
-- [ ] [⚔️ Fight them! ](../WIP.md)
+-  [⚔️ Fight them! ](../WIP.md)
 
-- [ ] [🏃 Run away!](../1/1-A.md)
+-  [🏃 Run away!](../1/1-A.md)
 
-- [ ] [🗣 Ask who they are](../WIP.md)
+-  [🗣 Ask who they are](../WIP.md)
