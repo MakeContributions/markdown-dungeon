@@ -1,4 +1,4 @@
-## Peering inside the lamp 🏮 you see a teeny-weeny red man with curling ears reading a book 📖.
+Peering inside the lamp 🏮 you see a teeny-weeny red man with curling ears reading a book 📖.
 
 -  [👋🏻 Shout hello!](../WIP.md)
 
