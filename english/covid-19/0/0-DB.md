@@ -1,9 +1,13 @@
-You try to break the chain with the power you acquired. Wow! It broke into pieces!
+ You try to break the chain with the power you acquired. 
 
-Hearing the sound came the figures. What will you do?
+ 💥 Wow! It broke into pieces! 💥
 
-[⚔️ Fight them! ](../WIP.md)
+ Hearing the sound, came the figures. 👥
 
-[🏃 Run away!](../1/1-A.md)
+ ❓ *What will you do?* ❓
 
-[🗣 Ask who they are](../WIP.md)
+-  [⚔️ Fight them! ](../WIP.md)
+
+-  [🏃 Run away!](../1/1-A.md)
+
+-  [🗣 Ask who they are](../WIP.md)
