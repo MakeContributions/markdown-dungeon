@@ -1,4 +1,4 @@
-## You played Chess ♟️, and you won every time 🏆. You are a great player 😁!
+You played Chess ♟️, and you won every time 🏆. You are a great player 😁!
 
 - [🔄 Play again](1-BBA.md)
 

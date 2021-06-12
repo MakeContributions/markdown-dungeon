@@ -1,4 +1,4 @@
-## You won 3 times playing Tic-Tac-Toe 🎮. You are a champion 🏆!
+ You won 3 times playing Tic-Tac-Toe 🎮. You are a champion 🏆!
 
 - [🤾‍♂️ Play again!](1-BBA.md)
 
