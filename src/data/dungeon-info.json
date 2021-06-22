@@ -22,5 +22,11 @@
     "display": "O Calabouço Normal",
     "image": "",
     "language": "portuguese"
+  },
+  {
+    "name": "time-travel",
+    "display": "Time travel",
+    "image": "",
+    "language": "english"
   }
 ]
