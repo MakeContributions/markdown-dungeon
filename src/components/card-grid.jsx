@@ -25,7 +25,6 @@ export default function CardGrid(props) {
       ? `${process.env.GATSBY_BASE_IMAGE_URL}${process.env.GATSBY_DEFAULT_IMAGE_NAME}`
       : `${process.env.GATSBY_BASE_IMAGE_URL}${info.image}`;
 
-  console.log(infos, splited, info);
   return info ? (
     <Grid item xs={props.xs} sm={props.sm} md={props.md}>
       <CardActionArea
