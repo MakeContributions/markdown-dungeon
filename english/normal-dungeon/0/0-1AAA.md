@@ -1,8 +1,8 @@
-## 💀 Your muscles are so tired that you can't move anymore. 
-## You have gotten *Rhabdomyolysis*. 😱
-### You call for help but nobody is there, so you die in a few days.
+💀 Your muscles are so tired that you can't move anymore. 
+You have gotten *Rhabdomyolysis*. 😱
+You call for help but nobody is there, so you die in a few days.
 
-# THE END 🎬
+**THE END 🎬**
 
 [Restart the game](../begin-journey.md)
 
