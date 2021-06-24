@@ -9,3 +9,5 @@ Choose your path:
 * [Save yourself from the viruses!](english/covid-19/begin-journey.md)
 
 * [Eu escolho você, a dungeon normal](portuguese/normal-dungeon/begin-journey.md)
+
+* [TIME to travel](english/time-travel/begin-journey.md)
