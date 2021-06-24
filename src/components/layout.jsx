@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   const style = {
     margin: `2rem auto`,
     maxWidth: 650,
-    padding: `2rem 2rem`,
+    padding: `5px 5px`,
     border: `1px solid #e1e4e8`,
     borderRadius: `6px`,
   };
