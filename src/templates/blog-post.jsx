@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { Home } from '@material-ui/icons';
+import Link from '@material-ui/core/Link';
 import Layout from '../components/layout';
 
 // highlight-start
@@ -15,8 +17,11 @@ export default function BlogPost({ data }) {
   // highlight-end
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </Layout>
+      <Link href="#" onClick={() => window.location.href = '/'} color="primary"><Home /></Link>
+      <div style={{ padding: `1.5rem 1.5rem` }}>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+    </Layout >
   );
 }
 
