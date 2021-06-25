@@ -19,7 +19,7 @@ export default function BlogPost({ data }) {
     <Layout>
       <Link href="#" onClick={() => window.location.href = '/'} color="primary"><Home /></Link>
       <br />
-      <div style={{ padding: `2rem 2rem` }}>
+      <div style={{ padding: `1.5rem 1.5rem` }}>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout >
