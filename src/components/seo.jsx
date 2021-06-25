@@ -39,7 +39,7 @@ export default function Seo({ title, description, image, article }) {
       {seo.image && <meta name='twitter:image' content={seo.image} />}
     </Helmet>
   );
-};
+}
 
 Seo.propTypes = {
   title: PropTypes.string,
