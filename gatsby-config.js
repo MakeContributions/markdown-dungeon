@@ -33,6 +33,14 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-catch-links`,

@@ -16,6 +16,7 @@
     "gatsby-image": "^3.4.0",
     "gatsby-plugin-catch-links": "^3.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
+    "gatsby-plugin-material-ui": "^3.0.1",
     "gatsby-plugin-offline": "^3.10.2",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sharp": "3.4.2",
