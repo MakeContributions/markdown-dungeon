@@ -1,10 +1,10 @@
-**You were going back from school to your house one day and you find a weird looking machine.**
+**You were going back from school to your house one day and you find a weird looking machine. 😕😵**
 
-Looks like a van but has no wheels.
+Looks like a van but has no wheels. 🚙
 
-*You pray to god - 'Please be it time machine'.* 👀
+*You pray to God - 'Please be it a time machine'.* 👀
 
-You find a timer and a label on the machine that says 'time machine'. 😮
+You find a timer and a label on the machine that says '**time machine**'. 😮
 
 Where do you travel first?
 
