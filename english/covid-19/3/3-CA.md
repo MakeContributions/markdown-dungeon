@@ -1,1 +1,1 @@
-You are now a bat. You realize that the serum was the first COVID-19 antidote, turning you into a bat to help fight off the virus. 
+You are now a bat 👤. You realize that the serum was the first COVID-19 antidote, turning you into a bat to help fight off the virus 😧.
