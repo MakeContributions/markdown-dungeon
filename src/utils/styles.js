@@ -31,4 +31,9 @@ export const homeStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
+  toolBar: {
+    backgroundColor: '#f9f8ff',
+    color: '#3f51b5',
+    fontSize: '1.8rem'
+  }
 }));
