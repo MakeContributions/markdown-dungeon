@@ -6,6 +6,8 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
+import { homeStyles } from '../utils/styles';
+
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -30,13 +32,14 @@ HideOnScroll.propTypes = {
 };
 
 export default function HideAppBar(props) {
+  const classes = homeStyles();
   return (
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
         <AppBar>
-          <Toolbar>
-            <Typography variant='h6' color='inherit' noWrap>
+          <Toolbar className={classes.toolBar}>
+            <Typography variant='h5' color='inherit' noWrap>
               Markdown Dungeon
             </Typography>
           </Toolbar>
