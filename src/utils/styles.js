@@ -33,7 +33,6 @@ export const homeStyles = makeStyles((theme) => ({
   },
   toolBar: {
     backgroundColor: '#f9f8ff',
-    color: '#3f51b5',
-    fontSize: '1.8rem'
+    color: '#424242',
   }
 }));
