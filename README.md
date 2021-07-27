@@ -96,7 +96,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see below de
 
 > Folder or file name only accept all ASCII characters and the dash(-).
 
-> If you created a new dungeon please add in [Start a new game](./start-new-game.md), so the reader can go to your dungeon
+> If you created a new dungeon please add in [Start a new game](./start-new-game.md), add [image](./static/images) and add it on the [data file](./src/data/dungeon-info.json), so the reader can go to your dungeon and open it on the website
 
 > If you want to get an idea of which option leads to what when contributing, look for `decision_tree.png` file under any dungeon folder, which contains a graphical view of that dungeon.
 
