@@ -28,5 +28,11 @@
     "display": "Time travel",
     "image": "time-travel.jpg",
     "language": "english"
+  },
+  {
+    "name": "normal-dungeon",
+    "display": "Un Calabozo Normal",
+    "image": "",
+    "language": "spanish"
   }
 ]
