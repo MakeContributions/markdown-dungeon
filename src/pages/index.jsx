@@ -9,6 +9,7 @@ import CardGrid from '../components/card-grid';
 import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 import Seo from '../components/seo';
+import HoverButton from '../components/HoverButton';
 
 export default function Home({ data }) {
   const classes = homeStyles();
@@ -21,29 +22,29 @@ export default function Home({ data }) {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth='sm'>
+          <Container maxWidth="sm">
             <Typography
-              component='h1'
-              variant='h2'
-              align='center'
-              color='textPrimary'
+              component="h1"
+              variant="h2"
+              align="center"
+              color="textPrimary"
               gutterBottom
             >
               Markdown Dungeon
             </Typography>
             <Typography
-              variant='h5'
-              align='center'
-              color='textSecondary'
+              variant="h5"
+              align="center"
+              color="textSecondary"
               paragraph
             >
-              A dungeon is a place or prison where people are held. 
-              <br/>
+              A dungeon is a place or prison where people are held.
+              <br />
               Usually, they can be found underground.
             </Typography>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth='lg'>
+        <Container className={classes.cardGrid} maxWidth="lg">
           {/* End hero unit */}
           <Grid container spacing={4}>
             {posts.map((post, index) => (
@@ -52,6 +53,9 @@ export default function Home({ data }) {
           </Grid>
         </Container>
       </main>
+      <div>
+        <HoverButton />
+      </div>
       {/* Footer */}
       <footer className={classes.footer}>
         <Copyright />
