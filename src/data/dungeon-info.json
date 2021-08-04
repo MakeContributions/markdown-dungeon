@@ -34,5 +34,11 @@
     "display": "Un Calabozo Normal",
     "image": "",
     "language": "spanish"
+  },
+  {
+    "name": "sci-fi-dungeon",
+    "display": "The Sci-fi Dungeon",
+    "image": "scifi-dungeon.jpg",
+    "language": "english"
   }
 ]

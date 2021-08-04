@@ -13,3 +13,5 @@ Choose your path:
 - [TIME to travel](english/time-travel/begin-journey.md)
 
 - [Yo te elijo, calabozo normal](spanish/normal-dungeon/begin-journey.md)
+
+- [Escape the Empire's prsion, Sci-fi dungeon](english\sci-fi-dungeon)
