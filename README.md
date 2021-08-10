@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/makecontributions/markdown-dungeon/badges/users.svg)](https://www.codetriage.com/makecontributions/markdown-dungeon)
+[![CodeQL](https://github.com/MakeContributions/markdown-dungeon/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/MakeContributions/markdown-dungeon/actions/workflows/codeql-analysis.yml)
+[![codespell](https://github.com/MakeContributions/markdown-dungeon/actions/workflows/codespell.yml/badge.svg)](https://github.com/MakeContributions/markdown-dungeon/actions/workflows/codespell.yml)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/320e6533-33ab-402c-bfb9-ebac1881b260/deploy-status)](https://app.netlify.com/sites/markdown-dungeon/deploys)
 [![Discord](https://img.shields.io/discord/863049619734790185?color=7389D8&logo=discord&logoColor=ffffff&label=&labelColor=6A7EC2)](https://discord.gg/ydWxdqbTyK)
 
