@@ -3,5 +3,4 @@ Polvo cubre los papeles 📰 dispersos por todo el escritorio, todos escritos en
 **¿Que es lo que haras?**
 
 - [Examinar los estantes 📚](3-CB.md)
-
 - [Regresar 🔙](2.md)

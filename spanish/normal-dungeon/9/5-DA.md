@@ -5,5 +5,4 @@ Las ventanas vibran violentamente, llenandote de miedo por saber que lo pudo hab
 Te encuentras enfrente de una gran escalera de caracol que lleva hacia los niveles bajos del castillo. Claramente, esta inmensa fortaleza es mas grande de lo que aparenta. Puedes solo imaginar que es lo que te espera ahi abajo...
 
 - [Aventurarme en las profundidades ↘](6-A.md)
-
 - [Regresar 🔙](5-D.md)

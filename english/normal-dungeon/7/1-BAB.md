@@ -7,5 +7,4 @@
  You later realize that your son 👦 is waiting for someone to rescue him from the evil goblins 👺!
 
 - [⛰️ Run to the ***secret mountain*** and rescue your son!](../4/2.md)
-
 - [😴 Take a long nap and go the mountain tomorrow](1-BC.md)
