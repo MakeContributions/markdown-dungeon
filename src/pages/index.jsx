@@ -9,12 +9,38 @@ import CardGrid from '../components/card-grid';
 import HideAppBar from '../components/hide-appbar';
 import { homeStyles } from '../utils/styles';
 import Seo from '../components/seo';
+import { useState } from "react";
+import Splash from "../components/SplashScreen";
+import { ThemeProvider } from "styled-components";
+
+const LightTheme = {
+  pageBackground: "white",
+  titleColor: "#dc658b",
+  tagLineColor: "black"
+};
+
+const DarkTheme = {
+  pageBackground: "#282c36",
+  titleColor: "lightpink",
+  tagLineColor: "lavender"
+}
+
+const themes = {
+  light: LightTheme,
+  dark: DarkTheme,
+}
+
+
 
 export default function Home({ data }) {
   const classes = homeStyles();
+  const [theme, setTheme] = useState("light")
   const posts = data.allMarkdownRemark.nodes;
   return (
     <React.Fragment>
+    <ThemeProvider theme={themes[theme]}>
+      <Splash theme={theme} setTheme={setTheme} />
+    </ThemeProvider>
       <Seo />
       <CssBaseline />
       <HideAppBar />
