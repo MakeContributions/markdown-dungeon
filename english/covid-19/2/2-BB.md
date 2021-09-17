@@ -1,4 +1,4 @@
- While you look for more things you find a place to where there is small ray of light is comming💡
+ While you look for more things you find a place to where there is small ray of light is coming💡
 
  from a glass window. also there was a door near it.
 
