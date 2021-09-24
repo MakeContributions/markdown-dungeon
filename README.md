@@ -9,8 +9,8 @@
 
 >A dungeon is a place or prison where people are held. Usually, they can be found underground.
 
-This is an example repo illustration of a dungeon using **Markdown** on Github.
-In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that based on their choice.
+This is an example repo illustration of a dungeon using **Markdown** on GitHub.
+In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that is based on their choice.
 It is collaborative because the room is written by many authors.
 
 | [Start a new game](./start-new-game.md) |
@@ -18,7 +18,7 @@ It is collaborative because the room is written by many authors.
 
 ## 📥 Installation
 
-You need install [yarn](https://www.npmjs.com/package/yarn).
+You need to install [yarn](https://www.npmjs.com/package/yarn).
 
 1. Clone the repo
 
@@ -26,7 +26,7 @@ You need install [yarn](https://www.npmjs.com/package/yarn).
 git clone https://github.com/MakeContributions/markdown-dungeon.git
 ```
 
-2. Go to folder
+2. Go to the folder
 
 ```bash
 cd markdown-dungeon
@@ -45,14 +45,14 @@ yarn
 yarn start
 ```
 
-> Ensure you are not using Power shell
+> Ensure you are not using PowerShell
 
 6. 🎉 Open your browser and go to http://localhost:8000/ or http://localhost:8000/___graphql
 
 ## 👷‍♂️ Floor and the room format
 
 A **floor** is a folder and each floor is a collection of **rooms** and every room is a `Markdown` file.
-The Markdown capability links is used for up/down and go to another room, like below example.
+The Markdown capability links are used for up/down and to go to another room, like the example below.
 
 [Go to Github dungeon](https://github.com/)
 
@@ -66,7 +66,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 - Keep changes small
 - Don't add an option without adding any gate for readers who decide on that option,
-  so the dungeon will not be full of deadlinks. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
+  so that the dungeon will not be full of dead links. Instead, the last markdown file the reader reaches on any path of the room should not have any options.
 
 #### Here are some examples of appropriate changes:
 
@@ -77,7 +77,7 @@ The Markdown capability links is used for up/down and go to another room, like b
 
 ### 2. ⛩ Dungeon Structure
 
-Structure should be `dungeon-name/floor-number/room-number`, please see below definition of each variables:
+Structure should be `dungeon-name/floor-number/room-number`, please see the definitions below for each variable:
 
 - dungeon-name: is a folder that contains floor number, should separate words with a dash(-), is alphanumeric. Example: **normal-dungeon-1**.
 - floor-number: is a folder that contains room number, is numeric do not add **0** before the number.
