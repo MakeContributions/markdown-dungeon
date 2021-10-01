@@ -5,4 +5,5 @@ Something doesn't feel right. You feel like you're being watched. You feel fear 
 It isn't too late to turn back now.
 
 - [Attempt to open the chest 🔍](6-D1.md)
+
 - [Return to the corridor ↗](6-C.md)
