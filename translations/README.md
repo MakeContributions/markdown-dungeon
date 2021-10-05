@@ -3,4 +3,4 @@
 | Code   | Translated Link           |
 | ------ | ------------------------- |
 | :gb:   | [English](./../README.md) |
-| :cn:   | [English](./README.ch.md) |
+| :cn:   | [繁體中文](./README.ch.md) |
