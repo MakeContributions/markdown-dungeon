@@ -2,4 +2,5 @@
 
 | Code   | Translated Link           |
 | ------ | ------------------------- |
-| GB🌐   | [English](./../README.md) |
+| :gb:   | [English](./../README.md) |
+| :cn:   | [English](./README.ch.md) |
