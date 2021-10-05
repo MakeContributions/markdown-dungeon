@@ -113,4 +113,4 @@ Markdown 功能鏈接用於向上/向下和轉到另一個房間，如下例所�
 
 ## 📝 許可證
 
-[MIT](./LICENSE)
+[MIT](./../LICENSE)
