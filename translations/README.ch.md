@@ -5,9 +5,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/320e6533-33ab-402c-bfb9-ebac1881b260/deploy-status)](https://app.netlify.com/sites/markdown-dungeon/deploys)
 [![Discord](https://img.shields.io/discord/863049619734790185?color=7389D8&logo=discord&logoColor=ffffff&label=&labelColor=6A7EC2)](https://discord.gg/ydWxdqbTyK)
 
- <h1 align="center">⚔️ Markdown 地牢 ⚔️</h1>
-
-> 地牢是關押人的地方或監獄。通常，它們可以在地下找到。
+<div align="center">
+    <h1>⚔️ Markdown 地牢 ⚔️</h1>
+    <i>地牢是關押人的地方或監獄。通常，它們可以在地下找到</i>
+</div>
+<br>
 
 這是在 GitHub 上使用 **Markdown** 的地牢示例 repo 插圖。
 在地牢中，讀者根據自己的選項來選擇並跳轉到房間的適當頁面。
