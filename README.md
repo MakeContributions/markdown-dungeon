@@ -5,9 +5,11 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/320e6533-33ab-402c-bfb9-ebac1881b260/deploy-status)](https://app.netlify.com/sites/markdown-dungeon/deploys)
 [![Discord](https://img.shields.io/discord/863049619734790185?color=7389D8&logo=discord&logoColor=ffffff&label=&labelColor=6A7EC2)](https://discord.gg/ydWxdqbTyK)
 
- <h1 align="center">⚔️ Markdown Dungeon ⚔️</h1>
-
->A dungeon is a place or prison where people are held. Usually, they can be found underground.
+<div align="center">
+    <h1>⚔️ Markdown Dungeon ⚔️</h1>
+    <i>A dungeon is a place or prison where people are held. Usually, they can be found underground</i>
+</div>
+<br>
 
 This is an example repo illustration of a dungeon using **Markdown** on GitHub.
 In the dungeon the reader chooses which option to take and jumps into an appropriate page of the room that is based on their choice.
