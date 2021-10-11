@@ -1,6 +1,6 @@
 ## 🚧 This area of the dungeon is currently being worked upon. 🚧
 
-Now you are trapped in a jail Darker than Darkness itself. The shread of red moonlight on only thing you watch for.
+Now you are trapped in a jail Darker than Darkness itself. The shread of red moonlight are only thing you look for in the blooming darkness.
 
 There Comes Noting but despair and agony To suddenly hearing a cat 🙀 with mask on face and protective barrier around it glow like only hope of mankind or maybe only the remaining of mankind.
 
