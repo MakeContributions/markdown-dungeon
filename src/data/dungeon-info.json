@@ -6,6 +6,12 @@
     "language": "english"
   },
   {
+    "name": "escape-madrid",
+    "display": "Escape Madrid",
+    "image":"escape-madrid.png",
+    "language":"english"
+  },
+  {
     "name": "great-wall",
     "display": "長城",
     "image": "great-wall.jpg",
