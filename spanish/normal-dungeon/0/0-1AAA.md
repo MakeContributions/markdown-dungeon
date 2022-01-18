@@ -1,4 +1,4 @@
-💀 Tus musculos estan tan fatigados que no te puedes mover.
+💀 Tus músculos están tan fatigados que no te puedes mover.
 
 Te has causado _rabdomiolisis_ 😱.
 
