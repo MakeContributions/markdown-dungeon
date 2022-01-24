@@ -106,7 +106,7 @@ Structure should be `dungeon-name/floor-number/room-number`, please see the defi
 
 ### 3. 🔗 Use Relative Links
 
-The links in this file must be [relative links](https://compugoddess.com/relative-vs-absolute-links/) to continue working if the repository is forked.
+The links in this file must be [relative links](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) to continue working if the repository is forked.
 
 ### 4. 📏 Line Lengths
 
