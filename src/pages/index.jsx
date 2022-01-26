@@ -21,7 +21,7 @@ export default function Home({ data }) {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth='sm'>
+          <Container maxWidth='md'>
             <Typography
               component='h1'
               variant='h2'
@@ -45,7 +45,7 @@ export default function Home({ data }) {
         </div>
         <Container className={classes.cardGrid} maxWidth='lg'>
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid justify={'center'} container spacing={4}>
             {posts.map((post, index) => (
               <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
             ))}

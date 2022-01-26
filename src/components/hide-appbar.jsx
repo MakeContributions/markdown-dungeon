@@ -7,6 +7,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Slide from '@material-ui/core/Slide';
 import { homeStyles } from '../utils/styles';
+import Container from "@material-ui/core/Container";
 
 
 function HideOnScroll(props) {
@@ -39,9 +40,17 @@ export default function HideAppBar(props) {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar className={classes.toolBar}>
-            <Typography variant='h5' color='inherit' noWrap>
-              Markdown Dungeon
-            </Typography>
+              <Container maxWidth={'lg'} style={{
+                  display: 'flex',
+                  alignItems: 'center',
+              }}>
+                <img src={`${process.env.GATSBY_BASE_IMAGE_URL}` + `icon.png`} alt={'logo'} width={'80rem'}
+                     style={{marginBottom:0, marginLeft:'-1.2rem'}}
+                />
+                <Typography variant='h5' color='inherit' style={{fontWeight:700}}>
+                  Markdown Dungeon
+                </Typography>
+              </Container>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
