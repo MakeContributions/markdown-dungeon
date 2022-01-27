@@ -23,11 +23,12 @@ export default function Home({ data }) {
         <div className={classes.heroContent}>
           <Container maxWidth='md'>
             <Typography
-              component='h1'
+              component='h6'
               variant='h2'
               align='center'
               color='textPrimary'
               gutterBottom
+              style={{fontWeight:700}}
             >
               Markdown Dungeon
             </Typography>
