@@ -10,6 +10,7 @@ Where do you travel first?
 
 - [☠ 1800](0/0/0.md) 
 - [🤔 2100](1/0.md)
+- [🌑 2400](2/0.md)
 
 🚧 This dungeon is still under development. You can still play it and have fun. 
 
