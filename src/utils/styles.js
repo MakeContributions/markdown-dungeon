@@ -19,6 +19,11 @@ export const homeStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
+    "&:hover, &:focus": {
+      backgroundColor: 'rgba(50,50,50)',
+      color:'white',
+      boxShadow: '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
+    }
   },
   cardMedia: {
     paddingTop: '56.25%', // 16:9

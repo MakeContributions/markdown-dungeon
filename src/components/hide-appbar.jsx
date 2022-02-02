@@ -39,9 +39,16 @@ export default function HideAppBar(props) {
       <HideOnScroll {...props}>
         <AppBar>
           <Toolbar className={classes.toolBar}>
-            <Typography variant='h5' color='inherit' noWrap>
-              Markdown Dungeon
-            </Typography>
+              <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+              }}>
+                <img src={process.env.GATSBY_BASE_IMAGE_URL + `icon.png`} alt={'logo'} width={'70rem'}
+                     style={{marginBottom:0}}/>
+                <Typography variant='h5' color='inherit' style={{fontWeight:700}}>
+                  Markdown Dungeon
+                </Typography>
+              </div>
           </Toolbar>
         </AppBar>
       </HideOnScroll>
