@@ -56,7 +56,7 @@ Enter
 
 ## Create a branch
 
-**Working on branches helps keeping different versions of your code and different uncompleted features from becomming a big mess.
+**Working on branches helps keeping different versions of your code and different uncompleted features from becoming a big mess.
 You ***never*** work directly on the main branch (sometimes also called master).**
 
 Change to the repository directory on your computer (if you are not already there):
@@ -73,7 +73,7 @@ git checkout -b do-something
 
 ## Make necessary changes 
 
-Do whatever you planed to do.
+Do whatever you planned to do.
 
 ## Commit changes
 
