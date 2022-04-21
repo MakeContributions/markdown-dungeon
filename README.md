@@ -64,18 +64,6 @@ The Markdown capability links are used for up/down and to go to another room, li
 
 ## 👩‍💻 Contribution Guidelines
 
-### 0. First time working on an open source project?
-This is a great project to start contributing to open source. Here is a guide for how to contribute:
-1. Find an issue [here](https://github.com/MakeContributions/markdown-dungeon/issues). The tag "good first issue" might help.
-2. (optional) Comment that you are going to work on this issue. In this repo the issue does not have to be assigned to you for you to make contributions.
-3. If you have not done so already: create a fork of the repo.
-4. Clone your fork.
-5. Using your fork, create a new branch to work on.
-6. Work on this branch, add, commit and push your changes.
-7. When you are ready, create a merge request.
-8. Comment you have made some changes, give the merge requests' number.
-9. After a while, somebody will review your merge request and propose changes or merge it.
-
 ### 1. 📐 Make Adequately Sized Changes
 
 - Keep changes small
