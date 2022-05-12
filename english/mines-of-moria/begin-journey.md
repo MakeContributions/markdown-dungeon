@@ -5,7 +5,7 @@ You are Frodo Baggins, Ring bearer and part of the Fellowship of the Ring.  You 
 
 You have journeyed with your fellows from Rivendell where the quest was laid on you by the elders.  Having travelled far, and denied an easier route over the mountains, you stand now before the gate to the Mines of Moria.
 
-In the cliff wall, there is a silvery portal, illuminated by the moonlight.  Elvish writting adorns it.
+In the cliff wall, there is a silvery portal, illuminated by the moonlight.Elvish writing adorns it.
 
 According to Gandalf the writing reads;
 
