@@ -1,8 +1,6 @@
 **You are going to sleep in one of the beds 🛌.**
 
-In the night someone is entering the house. You woke up to what felt like a blunt blow to the head.
-
-Before you could react, a second one followed.
+In the night someone is entering the house. Before you react somehow, you feel like stabbed.
 
 You're dying ☠️.
 
