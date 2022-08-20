@@ -1,6 +1,6 @@
 # Translations
 
-| Code   | Translated Link           |
-| ------ | ------------------------- |
-| :gb:   | [English](./../README.md) |
-| :cn:   | [繁體中文](./README.ch.md) |
+| Code                        | Translated Link           |
+| --------------------------- | ------------------------- |
+| :globe_with_meridians:	    | [English](./../README.md) |
+| :taiwan:                    | [繁體中文](./README.ch.md) |
