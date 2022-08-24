@@ -11,7 +11,7 @@
 </div>
 <br>
 
-Ceci est un exemple d'illustration de dépôt d'un donjon utilisant **Markdown** sur GitHub.
+Ceci est un exemple de dépôt d'illustration d'un donjon utilisant **Markdown** sur GitHub.
 Dans le donjon, le lecteur choisit l'option à prendre et saute dans une page appropriée à la pièce en fonction de son choix.
 Elle est collaborative car la pièce est écrite par de nombreux auteurs.
 
