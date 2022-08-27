@@ -15,7 +15,7 @@ Ceci est un exemple de dépôt d'illustration d'un donjon utilisant **Markdown**
 Dans le donjon, le lecteur choisit l'option à prendre et saute dans une page appropriée à la pièce en fonction de son choix.
 Elle est collaborative car la pièce est écrite par de nombreux auteurs.
 
-| [Commencer une nouvelle partie](./start-new-game.md) |
+| [Commencer une nouvelle partie](../start-new-game.md) |
 | --------------------------------------- |
 
 ## 📥 Installation
@@ -100,7 +100,7 @@ La structure doit être `dungeon-name/floor-number/room-number`, veuillez consul
 
 > Le nom de dossier ou de fichier n'accepte que tous les caractères ASCII et le tiret (-).
 
-> Si vous avez créé un nouveau donjon, veuillez ajouter [Commencer une nouvelle partie](./start-new-game.md), ajoutez-le sur [images](./static/images) dossier, et dans [dungeon-info.json](./src/data/dungeon-info.json), afin que le lecteur puisse accéder à votre donjon et l'ouvrir sur le site
+> Si vous avez créé un nouveau donjon, veuillez ajouter [Commencer une nouvelle partie](../start-new-game.md), ajoutez-le sur [images](../static/images) dossier, et dans [dungeon-info.json](../src/data/dungeon-info.json), afin que le lecteur puisse accéder à votre donjon et l'ouvrir sur le site
 
 > Si vous voulez avoir une idée de quelle option mène à quoi lors de la contribution, recherchez le fichier `decision_tree.png`  sous n'importe quel dossier de donjon, qui contient une vue graphique de ce donjon.
 
@@ -118,4 +118,4 @@ Insérez des lignes vides entre les différentes options afin que les options so
 
 ## 📝 Licence
 
-[MIT](./LICENSE)
+[MIT](../LICENSE)
