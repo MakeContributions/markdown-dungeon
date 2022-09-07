@@ -1,8 +1,10 @@
-**You are going to sleep in one of the beds 🛌.**
+**You decide to sleep in the largest bed, nearest where the machete was found 🛌.**
 
-In the night someone is entering the house. You woke up to what felt like a blunt blow to the head.
+You sleep soundly, and gently stir to the sound of footsteps in the frontroom.
 
-Before you could react, a second one followed.
+Not fully awake, you sit up, and promptly receive a blunt blow to the head - knocking you back onto your pillow.
+
+Before you could react, a second one follows.
 
 You're dying ☠️.
 

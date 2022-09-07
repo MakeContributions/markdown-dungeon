@@ -1,9 +1,9 @@
-**You are walking to a woman carefully.**
+**You approach the woman carefully.**
 
-Suddenly, you see a human-like hairy monster with the face of a wolf 🐺 running into you. 
+Suddenly, something knocks you to the ground 💢. You see a human-like hairy monster with the face of a wolf 🐺. He is displeased and very hungry.
 
-It stab you in your face 🤕 before you react.
+He takes his blade from his sheath and stabs violently towards your face.
 
-You're dying ☠️.
+You died ☠️.
 
 [🔄 Restart the game](../../begin-journey.md) 
