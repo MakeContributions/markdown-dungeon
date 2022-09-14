@@ -1,8 +1,9 @@
-**You open books 📖 and read.**
+**You open some books 📖 and read.**
 
-First one is copy of *Monstres And Their Kynde* 📘 in archaic English. Books is about wolves 🐺 and werewolves.
+You first pick up a copy of *Monstres And Their Kynde* 📘written in archaic English. You skim to learn it's about wolves 🐺 and werewolves. It piques your interest, inviting you to explore the other titles. 
 
-There is also a copy of *Les Lupus Horrifique* 📗, concerning a mass outbreak of lupus 🐺 and rabies, by a Dr. Raphael Peltonne 👨‍⚕️. The book is filled with terrifying events, told in an excecdingly cynical way.
+Returning the tattered chunk to the table, your eye catches **bold** lettering engraved on sheepskin:
+ *Les Lupus Horrifique* 📗 by a Dr. Raphael Peltonne 👨‍⚕️. The book is filled with terrifying events concerning a mass outbreak of lupus 🐺 and rabies - told in an excecdingly cynical way.
 
 - [🚪 Go to woodshed](8-2ABE.md)
 - [🚪 Go to barn](8-2ABE.md)

@@ -1,6 +1,8 @@
 **You are back in front room.**
 
-The front room contains a table, four chairs 🪑, a fireplace 🔥, a few cooking utensil and some books 📚.
+In the front room now, you are greeted by the same table with four chairs 🪑, a fireplace 🔥 with cooking utensils, and some books 📚.
+
+In the corner, you stand with the entance to the back room behind you.
 
 - [📚 Read books](8-2ABDA.md)
 - [🚪 Go to woodshed](8-2AE.md)
