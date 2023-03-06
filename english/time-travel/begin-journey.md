@@ -2,7 +2,7 @@
 
 Looks like a van but has no wheels. 🚙
 
-*You pray to God - 'Please be it a time machine'.* 👀
+*You pray to God - 'Please let it be a time machine'.* 👀
 
 You find a timer and a label on the machine that says '**time machine**'. 😮
 
