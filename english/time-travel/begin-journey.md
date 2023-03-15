@@ -8,6 +8,7 @@ You find a timer and a label on the machine that says '**time machine**'. 😮
 
 Where do you travel first?
 
+- [⚔️ 1500](3/0.md)
 - [☠ 1800](0/0/0.md) 
 - [🤔 2100](1/0.md)
 - [🌑 2400](2/0.md)
