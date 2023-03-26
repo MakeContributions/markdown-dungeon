@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+You unroll the the piece of parchment and discover that it's a map!
+=======
 You unroll the piece of parchment and discover that it's a map!
+>>>>>>> refs/remotes/origin/master
 
 The map details the different rooms of the dungeon, including the room you are in. Apparently, the dungeon was used to house a minotaur! A beast that is half-man, half-bull. He is located at the other side of the dungeon in what seems to be the biggest cell in the building.
 
