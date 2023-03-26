@@ -4,8 +4,6 @@ The gray swirls 🌀 twist in the air 🌪 until the smoke forms into a vaguely 
 
 "*What will your wishes be then?*"
 
--  [🖼 Fame and Glory!](../WIP.md)
-
--  [🤑 Wealth and riches!](../WIP.md)
-
--  [🆓 I free you great djinn from your bonds of service 🙏🏻](../WIP.md)
+- [🖼 Fame and Glory!](../WIP.md)
+- [🤑 Wealth and riches!](../WIP.md)
+- [🆓 I free you great djinn from your bonds of service 🙏🏻](../WIP.md)

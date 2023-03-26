@@ -40,5 +40,11 @@
     "display": "The Sci-fi Dungeon",
     "image": "scifi-dungeon.jpg",
     "language": "english"
+  },
+  {
+    "name": "mines-of-moria",
+    "display": "The Mines of Moria Dungeon",
+    "image": "mines-of-moria.jpg",
+    "language": "english"
   }
 ]

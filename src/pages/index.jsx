@@ -21,13 +21,14 @@ export default function Home({ data }) {
       <main>
         {/* Hero unit */}
         <div className={classes.heroContent}>
-          <Container maxWidth='sm'>
+          <Container maxWidth='md'>
             <Typography
-              component='h1'
+              component='h6'
               variant='h2'
               align='center'
               color='textPrimary'
               gutterBottom
+              style={{fontWeight:700}}
             >
               Markdown Dungeon
             </Typography>
@@ -45,7 +46,7 @@ export default function Home({ data }) {
         </div>
         <Container className={classes.cardGrid} maxWidth='lg'>
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid justify={'center'} container spacing={4}>
             {posts.map((post, index) => (
               <CardGrid item key={index} post={post} xs={12} sm={6} md={3} />
             ))}

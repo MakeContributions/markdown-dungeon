@@ -3,6 +3,5 @@
 
 **Brilliant 👊🏽!**
 
--  [🗡 Chase the rest of the figures](../WIP.md)
-
--  [🏛 Go into the dungeon](../3/3.md)
+- [🗡 Chase the rest of the figures](../WIP.md)
+- [🏛 Go into the dungeon](../3/3.md)
