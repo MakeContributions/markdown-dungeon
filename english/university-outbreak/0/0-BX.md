@@ -6,5 +6,4 @@ You see their eyes have turned red as they notice you. Before you can react, the
 YOU DIED
 
 - [Return to the start](0.md)
-- [Return to the previous choice](0-B.md)
 
