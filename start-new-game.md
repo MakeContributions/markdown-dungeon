@@ -10,3 +10,4 @@ Choose your path:
 - [Yo te elijo, calabozo normal](spanish/normal-dungeon/begin-journey.md)
 - [Escape the Empire's prsion, Sci-fi dungeon](english\sci-fi-dungeon)
 - [The Mines of Moria](english/mines-of-moria/begin-journey.md)
+- [University Outbreak](english/university-outbreak/begin-journey.md)
