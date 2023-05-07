@@ -6,5 +6,5 @@ Someone was already hiding in it! The scream of pain alerted nearby zombies and 
 
 You died!
 
-- [Return to the start](0.md)
+- [Return to the start](../0/0.md)
 

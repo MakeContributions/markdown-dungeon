@@ -6,5 +6,5 @@ The attempt to break in sets off the vans alarm and 100s of zombies run to your 
 
 You died!
 
-- [Return to the start](0.md)
+- [Return to the start](../0/0.md)
 

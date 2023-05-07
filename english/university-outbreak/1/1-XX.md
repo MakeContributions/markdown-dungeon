@@ -6,5 +6,5 @@ They sprint after you, twice as fast as you are, and pounce on you, ripping you 
 
 You died!
 
-- [Return to the start](0.md)
+- [Return to the start](../0/0.md)
 
