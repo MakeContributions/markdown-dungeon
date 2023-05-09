@@ -7,4 +7,4 @@ Blue Lights Flash!
 But what was it, you look around and see the hue of a blue light through your window curtain. What do you do?
 
 - [Investigate](0/0.md)
-- [Ignore](1/0.md)
+- [Ignore](1/1.md)
