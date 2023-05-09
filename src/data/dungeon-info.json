@@ -46,5 +46,11 @@
     "display": "The Mines of Moria Dungeon",
     "image": "mines-of-moria.jpg",
     "language": "english"
+  },
+  {
+    "name": "blue-lights-flash",
+    "display": "Blue Lights Flash",
+    "image": "blue-lights-flash.jpg",
+    "language": "english"
   }
 ]
