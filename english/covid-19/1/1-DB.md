@@ -6,4 +6,4 @@ You'll have to find a place to quarantine for a couple of weeks before you can g
 
 THE END! 🎬
 
-[🔄 Restart the game](../begin-journey.md)
+[🔄 Restart the game](../../../start-new-game.md)

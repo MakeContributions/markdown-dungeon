@@ -4,5 +4,5 @@ You call for help but nobody is there, so you die in a few days.
 
 **THE END 🎬**
 
-[Restart the game](../begin-journey.md)
+[🔄 Restart the game](../../../start-new-game.md)
 
