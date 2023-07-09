@@ -109,3 +109,5 @@ public/
 
 # MacOS Desktop Services Store
 .DS_Store
+
+.idea/*
