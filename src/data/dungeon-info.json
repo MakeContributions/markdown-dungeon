@@ -46,5 +46,11 @@
     "display": "The Mines of Moria Dungeon",
     "image": "mines-of-moria.jpg",
     "language": "english"
+  },
+  {
+    "name": "mushroom-kingdom-dungeon",
+    "display": "The Mushroom Kingdom Dungeon",
+    "image": "mushroom-kingdom-dungeon.jpeg",
+    "language": "english"
   }
 ]
