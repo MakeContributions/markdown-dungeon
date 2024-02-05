@@ -4,6 +4,6 @@ With his loud voice, the genie booms: 🗣️
 
 The genie then disappears into the air. What will you do now?
 
-- [🚶 Enter the dungeon](1.md)
-- [😭 Cry for help](0-C.md)
-- [💪 Do some pushups](0-D.md)
+- [🚶 Enter the dungeon](../1.md)
+- [😭 Cry for help](../0-C.md)
+- [💪 Do some pushups](../0-D.md)
