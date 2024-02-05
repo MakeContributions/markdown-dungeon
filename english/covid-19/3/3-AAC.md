@@ -4,4 +4,4 @@ With your wish to free the genie, the lantern shatters! 🏮 The genie say:
 
 - [🖼 Fame and Glory!](../WIP.md)
 - [🤑 Weath and riches!](../WIP.md)
-- [Save your wish for later](../WIP.md)
+- [👀 Save your wish for later](../WIP.md)
